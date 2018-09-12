@@ -1,0 +1,1109 @@
+Error 1 - Fatal error :
+Warning : the field ' Frequency-dependent remeshing of unidirectional conductors ' is not set. Check carefully its value before validating the box.
+
+-------------------------------------------
+Error 2 - Fatal error :
+NDZCOO   => Incorrect number of coordinates
+NDZCOO   => Failed...
+EL_C_AR_MIN_MAX => Failed
+NDP_C_CELLS => Failed...
+NDP_R_MRQ => Failed...
+EL3PRO_2 => Failed
+EL_RPR2D => Failed
+NDZCOO   => Incorrect number of coordinates
+NDZCOO   => Failed...
+EL_C_AR_MIN_MAX => Failed
+NDP_C_CELLS => Failed...
+NDP_R_MRQ => Failed...
+EL3PRO_2 => Failed
+EL_RPR2D => Failed
+RG_RRAEM_2 => Calculation failed
+RG_RRAEM_2 => Calculation failed
+RG_RRAEM_2 => Calculation failed
+RG_RRAEM_2 => Calculation failed
+-------------------------------------------
+Error 3 - Fatal error :
+MECDX3_2 => Singular jacobian for element 2484
+MECDX3_2 => Unable to compute jacobian
+MECDX2   => Failed
+PECIEG   => Failed
+PECIR2_1 => Failed....
+PECIR2   => Failed....
+PUCVOL   => Failed
+RGEVOL   => Failed
+FL6VPB   => Failed ...
+FL5RE4   => Command not executed correctly
+FL5ERS   => failed
+FL5ERS   => failed
+-------------------------------------------
+Error 4 - Fatal error :
+LoadNodeBorderToEleSurf => Unknown type of surfacic element
+LoadNodeToEleSurf => Unknown type of surfacic element
+LoadNodeBorderToEleSurf => Unknown type of surfacic element
+LoadNodeToEleSurf => Unknown type of surfacic element
+loadCoordSurfElemBorder => failed
+stdcom.error.SoftFortranException: LoadNodeBorderToEleSurf => Unknown type of surfacic element
+	at cad.core.common.error.ErrorManager.createFortranException(Unknown Source)
+	at cad.flux.kernel.dbmanager.FGCProjectDbWrapper.loadCoordSurfElemBorder(Native Method)
+	at cad.flux.kernel.dbmanager.FGCProjectDbAdapter.loadCoordSurfElemBorder(Unknown Source)
+	at cad.flux.kernel.exporteddata.graphic.FGKernelGraphicWrapper.loadCoordSurfElemBorder(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cad.core.kernel.exporteddata.entity.DataManager.updateEvaluatedIndexedCoordinates(Unknown Source)
+	at cad.core.kernel.exporteddata.entity.DataManager.updateSharedCoordinates(Unknown Source)
+	at cad.core.kernel.exporteddata.entity.DataManager.setField(Unknown Source)
+	at cad.flux.kernel.exporteddata.entity.FGDataManager.setField(Unknown Source)
+	at cad.core.kernel.exporteddata.DocumentManager.getAllInstances(Unknown Source)
+	at cad.flux.kernel.exporteddata.FGDocumentManager.getAllInstances(Unknown Source)
+	at cad.core.kernel.encoder.InstanceServerRequestsInputPlug.getAllInstances(Unknown Source)
+	at stdcom.protocole.instanceserverrequests.InstanceServerRequestsRouter.getAllInstances(Unknown Source)
+	at stdcom.protocole.instanceserverrequests.InstanceServerRequestsOutputPlug.getAllInstances(Unknown Source)
+	at cad.core.frontal.decoder.FrontalDecoder.getAllInstances(Unknown Source)
+	at cad.core.frontal.data.Type.updateInstances(Unknown Source)
+	at cad.core.frontal.data.TypesManager.updateModifiedInstancesTypes(Unknown Source)
+	at cad.core.frontal.document.Document.updateInstances(Unknown Source)
+	at cad.core.frontal.document.Document.forceUpdatingAllTypeInstances(Unknown Source)
+	at cad.core.frontal.encoder.DocumentListenerNotificationsInputPlug.forceUpdatingAllTypeInstances(Unknown Source)
+	at stdcom.protocole.documentlistenernotifications.DocumentListenerNotificationsRouter.forceUpdatingAllTypeInstances(Unknown Source)
+	at stdcom.protocole.documentlistenernotifications.DocumentListenerNotificationsOutputPlug.forceUpdatingAllTypeInstances(Unknown Source)
+	at cad.core.kernel.decoder.KernelDecoder.forceUpdatingAllTypeInstances(Unknown Source)
+	at cad.core.kernel.exporteddata.DocumentManager.forceUpdatingAllTypeInstances(Unknown Source)
+	at cad.core.kernel.Supervisor.forceUpdatingAllTypeInstances(Unknown Source)
+	at cad.flux.kernel.dbmanager.FGCProjectDbWrapper.executeAlgo(Native Method)
+	at cad.flux.kernel.dbmanager.FGCProjectDbAdapter.executeAlgo(Unknown Source)
+	at cad.flux.kernel.dbmanager.FGCDbManager.executeAlgo(Unknown Source)
+	at cad.flux.kernel.FGSupervisor.executeNativeCommand(Unknown Source)
+	at cad.core.kernel.Supervisor.executeCommand(Unknown Source)
+	at cad.core.kernel.Supervisor.executeMethod(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.python.core.PyReflectedFunction.__call__(Unknown Source)
+	at org.python.core.PyMethod.__call__(Unknown Source)
+	at org.python.core.PyObject.__call__(Unknown Source)
+	at org.python.core.PyObject.invoke(Unknown Source)
+	at pydb$py.executeMethod$187(G:\devf3d\Flux1120\Java_sources\sources\factory\core\modules\corekernel\sources\cad\core\kernel\interpreter\pydb.py:1415)
+	at pydb$py.call_function(G:\devf3d\Flux1120\Java_sources\sources\factory\core\modules\corekernel\sources\cad\core\kernel\interpreter\pydb.py)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyFunction.__call__(Unknown Source)
+	at org.python.core.PyInstance.invoke(Unknown Source)
+	at pydb$py.__call__$159(G:\devf3d\Flux1120\Java_sources\sources\factory\core\modules\corekernel\sources\cad\core\kernel\interpreter\pydb.py:1229)
+	at pydb$py.call_function(G:\devf3d\Flux1120\Java_sources\sources\factory\core\modules\corekernel\sources\cad\core\kernel\interpreter\pydb.py)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyFunction.__call__(Unknown Source)
+	at org.python.core.PyMethod.__call__(Unknown Source)
+	at org.python.core.PyObject.invoke(Unknown Source)
+	at org.python.core.PyInstance.__call__(Unknown Source)
+	at org.python.core.PyObject.__call__(Unknown Source)
+	at org.python.core.PyInstance.invoke(Unknown Source)
+	at org.python.pycode._pyx15.f$0(<input>:1)
+	at org.python.pycode._pyx15.call_function(<input>)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyCode.call(Unknown Source)
+	at org.python.core.Py.runCode(Unknown Source)
+	at org.python.core.Py.exec(Unknown Source)
+	at org.python.util.PythonInterpreter.exec(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.runCode(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.runsource(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.runsource(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.runsource(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.execute(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.executeFunction(Unknown Source)
+	at cad.core.kernel.encoder.CommandServerRequestsInputPlug.executeCommand(Unknown Source)
+	at stdcom.protocole.commandserverrequests.CommandServerRequestsRouter.executeCommand(Unknown Source)
+	at stdcom.protocole.commandserverrequests.CommandServerRequestsOutputPlug.executeCommand(Unknown Source)
+	at cad.core.frontal.decoder.FrontalDecoder.executeCommand(Unknown Source)
+	at cad.core.frontal.actions.implementation.GeneralAction.executeBox(Unknown Source)
+	at cad.core.frontal.actions.implementation.GeneralAction.act(Unknown Source)
+	at cad.core.frontal.actions.implementation.ModlessImplementer.internalRun(Unknown Source)
+	at cad.core.frontal.frontalthread.WorkerThread.executeImplementer(Unknown Source)
+	at cad.core.frontal.frontalthread.WorkerThread.run(Unknown Source)
+-------------------------------------------
+Error 5 - Fatal error :
+LoadNodeBorderToEleSurf => Unknown type of surfacic element
+LoadNodeToEleSurf => Unknown type of surfacic element
+loadCoordSurfElemBorder => failed
+stdcom.error.SoftFortranException: LoadNodeBorderToEleSurf => Unknown type of surfacic element
+	at cad.core.common.error.ErrorManager.createFortranException(Unknown Source)
+	at cad.flux.kernel.dbmanager.FGCProjectDbWrapper.loadCoordSurfElemBorder(Native Method)
+	at cad.flux.kernel.dbmanager.FGCProjectDbAdapter.loadCoordSurfElemBorder(Unknown Source)
+	at cad.flux.kernel.exporteddata.graphic.FGKernelGraphicWrapper.loadCoordSurfElemBorder(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cad.core.kernel.exporteddata.entity.DataManager.updateEvaluatedIndexedCoordinates(Unknown Source)
+	at cad.core.kernel.exporteddata.entity.DataManager.updateSharedCoordinates(Unknown Source)
+	at cad.core.kernel.exporteddata.entity.DataManager.setField(Unknown Source)
+	at cad.flux.kernel.exporteddata.entity.FGDataManager.setField(Unknown Source)
+	at cad.core.kernel.exporteddata.DocumentManager.getAllInstances(Unknown Source)
+	at cad.flux.kernel.exporteddata.FGDocumentManager.getAllInstances(Unknown Source)
+	at cad.core.kernel.encoder.InstanceServerRequestsInputPlug.getAllInstances(Unknown Source)
+	at stdcom.protocole.instanceserverrequests.InstanceServerRequestsRouter.getAllInstances(Unknown Source)
+	at stdcom.protocole.instanceserverrequests.InstanceServerRequestsOutputPlug.getAllInstances(Unknown Source)
+	at cad.core.frontal.decoder.FrontalDecoder.getAllInstances(Unknown Source)
+	at cad.core.frontal.data.Type.updateInstances(Unknown Source)
+	at cad.core.frontal.data.TypesManager.updateModifiedInstancesTypes(Unknown Source)
+	at cad.core.frontal.document.Document.updateInstances(Unknown Source)
+	at cad.core.frontal.document.Document.updateDatabase(Unknown Source)
+	at cad.core.frontal.document.Document.notifyModelsModification(Unknown Source)
+	at cad.core.frontal.encoder.DocumentListenerNotificationsInputPlug.notifyModelsModification(Unknown Source)
+	at stdcom.protocole.documentlistenernotifications.DocumentListenerNotificationsRouter.notifyModelsModification(Unknown Source)
+	at stdcom.protocole.documentlistenernotifications.DocumentListenerNotificationsOutputPlug.notifyModelsModification(Unknown Source)
+	at cad.core.kernel.decoder.KernelDecoder.notifyModelsModification(Unknown Source)
+	at cad.core.kernel.exporteddata.DocumentManager.changeUseCase(Unknown Source)
+	at cad.core.kernel.exporteddata.DocumentManager.getNewState(Unknown Source)
+	at cad.core.kernel.Supervisor.getNewState(Unknown Source)
+	at cad.core.common.dynamic.states.StateProject.manageState(Unknown Source)
+	at cad.core.common.dynamic.states.StateProject.setState(Unknown Source)
+	at cad.flux.kernel.FGSupervisor.executeNativeCommand(Unknown Source)
+	at cad.core.kernel.Supervisor.executeCommand(Unknown Source)
+	at cad.core.kernel.Supervisor.executeMethod(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.python.core.PyReflectedFunction.__call__(Unknown Source)
+	at org.python.core.PyMethod.__call__(Unknown Source)
+	at org.python.core.PyObject.__call__(Unknown Source)
+	at org.python.core.PyObject.invoke(Unknown Source)
+	at pydb$py.executeMethod$187(G:\devf3d\Flux1120\Java_sources\sources\factory\core\modules\corekernel\sources\cad\core\kernel\interpreter\pydb.py:1415)
+	at pydb$py.call_function(G:\devf3d\Flux1120\Java_sources\sources\factory\core\modules\corekernel\sources\cad\core\kernel\interpreter\pydb.py)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyFunction.__call__(Unknown Source)
+	at org.python.core.PyInstance.invoke(Unknown Source)
+	at pydb$py.__call__$159(G:\devf3d\Flux1120\Java_sources\sources\factory\core\modules\corekernel\sources\cad\core\kernel\interpreter\pydb.py:1229)
+	at pydb$py.call_function(G:\devf3d\Flux1120\Java_sources\sources\factory\core\modules\corekernel\sources\cad\core\kernel\interpreter\pydb.py)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyFunction.__call__(Unknown Source)
+	at org.python.core.PyMethod.__call__(Unknown Source)
+	at org.python.core.PyObject.invoke(Unknown Source)
+	at org.python.core.PyInstance.__call__(Unknown Source)
+	at org.python.core.PyObject.__call__(Unknown Source)
+	at org.python.core.PyInstance.invoke(Unknown Source)
+	at org.python.pycode._pyx15.f$0(<input>:1)
+	at org.python.pycode._pyx15.call_function(<input>)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyCode.call(Unknown Source)
+	at org.python.core.Py.runCode(Unknown Source)
+	at org.python.core.Py.exec(Unknown Source)
+	at org.python.util.PythonInterpreter.exec(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.runCode(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.runsource(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.runsource(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.runsource(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.execute(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.executeFunction(Unknown Source)
+	at cad.core.kernel.encoder.CommandServerRequestsInputPlug.executeCommand(Unknown Source)
+	at stdcom.protocole.commandserverrequests.CommandServerRequestsRouter.executeCommand(Unknown Source)
+	at stdcom.protocole.commandserverrequests.CommandServerRequestsOutputPlug.executeCommand(Unknown Source)
+	at cad.core.frontal.decoder.FrontalDecoder.executeCommand(Unknown Source)
+	at cad.core.frontal.actions.implementation.GeneralAction.executeBox(Unknown Source)
+	at cad.core.frontal.actions.implementation.GeneralAction.act(Unknown Source)
+	at cad.core.frontal.actions.implementation.ModlessImplementer.internalRun(Unknown Source)
+	at cad.core.frontal.frontalthread.WorkerThread.executeImplementer(Unknown Source)
+	at cad.core.frontal.frontalthread.WorkerThread.run(Unknown Source)
+-------------------------------------------
+Error 6 - Fatal error :
+MECDX3_2 => Singular jacobian for element 2484
+MECDX3_2 => Unable to compute jacobian
+MECDX2   => Failed
+PECIEG   => Failed
+PECIR2_1 => Failed....
+PECIR2   => Failed....
+PUCVOL   => Failed
+RGEVOL   => Failed
+FL6VPB   => Failed ...
+FL5RE4   => Command not executed correctly
+FL5ERS   => failed
+FL5ERS   => failed
+-------------------------------------------
+Error 7 - Fatal error :
+LoadNodeBorderToEleSurf => Unknown type of surfacic element
+LoadNodeToEleSurf => Unknown type of surfacic element
+loadCoordSurfElemBorder => failed
+stdcom.error.SoftFortranException: LoadNodeBorderToEleSurf => Unknown type of surfacic element
+	at cad.core.common.error.ErrorManager.createFortranException(Unknown Source)
+	at cad.flux.kernel.dbmanager.FGCProjectDbWrapper.loadCoordSurfElemBorder(Native Method)
+	at cad.flux.kernel.dbmanager.FGCProjectDbAdapter.loadCoordSurfElemBorder(Unknown Source)
+	at cad.flux.kernel.exporteddata.graphic.FGKernelGraphicWrapper.loadCoordSurfElemBorder(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cad.core.kernel.exporteddata.entity.DataManager.updateEvaluatedIndexedCoordinates(Unknown Source)
+	at cad.core.kernel.exporteddata.entity.DataManager.updateSharedCoordinates(Unknown Source)
+	at cad.core.kernel.exporteddata.entity.DataManager.setField(Unknown Source)
+	at cad.flux.kernel.exporteddata.entity.FGDataManager.setField(Unknown Source)
+	at cad.core.kernel.exporteddata.DocumentManager.getAllInstances(Unknown Source)
+	at cad.flux.kernel.exporteddata.FGDocumentManager.getAllInstances(Unknown Source)
+	at cad.core.kernel.encoder.InstanceServerRequestsInputPlug.getAllInstances(Unknown Source)
+	at stdcom.protocole.instanceserverrequests.InstanceServerRequestsRouter.getAllInstances(Unknown Source)
+	at stdcom.protocole.instanceserverrequests.InstanceServerRequestsOutputPlug.getAllInstances(Unknown Source)
+	at cad.core.frontal.decoder.FrontalDecoder.getAllInstances(Unknown Source)
+	at cad.core.frontal.data.Type.updateInstances(Unknown Source)
+	at cad.core.frontal.data.TypesManager.updateModifiedInstancesTypes(Unknown Source)
+	at cad.core.frontal.document.Document.updateInstances(Unknown Source)
+	at cad.core.frontal.document.Document.updateDatabase(Unknown Source)
+	at cad.core.frontal.document.display.DisplaysComponentManager.displaysListUpdated(Unknown Source)
+	at cad.core.frontal.encoder.DisplayListenerNotificationsInputPlug.displaysListUpdated(Unknown Source)
+	at stdcom.protocole.displaylistenernotifications.DisplayListenerNotificationsRouter.displaysListUpdated(Unknown Source)
+	at stdcom.protocole.displaylistenernotifications.DisplayListenerNotificationsOutputPlug.displaysListUpdated(Unknown Source)
+	at cad.core.kernel.decoder.KernelDecoder.displaysListUpdated(Unknown Source)
+	at cad.core.kernel.exporteddata.display.DefaultDisplaysManager.internalUpdateDisplays(Unknown Source)
+	at cad.core.kernel.exporteddata.display.DefaultDisplaysManager.updateDisplays(Unknown Source)
+	at cad.core.kernel.exporteddata.DocumentManager.getNewState(Unknown Source)
+	at cad.core.kernel.Supervisor.getNewState(Unknown Source)
+	at cad.core.common.dynamic.states.StateProject.manageState(Unknown Source)
+	at cad.core.common.dynamic.states.StateProject.setState(Unknown Source)
+	at cad.flux.kernel.FGSupervisor.executeNativeCommand(Unknown Source)
+	at cad.flux.kernel.actions.implementation.algo.project.KSolveScenarioAction.doAction(Unknown Source)
+	at cad.core.common.dynamic.actions.UIActionManager.postAction(Unknown Source)
+	at cad.core.kernel.KernelCommon.postAction(Unknown Source)
+	at cad.core.kernel.Supervisor.executeJavaCommand(Unknown Source)
+	at cad.core.kernel.Supervisor.executeCommand(Unknown Source)
+	at cad.core.kernel.Supervisor.executeMethod(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.python.core.PyReflectedFunction.__call__(Unknown Source)
+	at org.python.core.PyMethod.__call__(Unknown Source)
+	at org.python.core.PyObject.__call__(Unknown Source)
+	at org.python.core.PyObject.invoke(Unknown Source)
+	at pydb$py.executeMethod$187(G:\devf3d\Flux1120\Java_sources\sources\factory\core\modules\corekernel\sources\cad\core\kernel\interpreter\pydb.py:1415)
+	at pydb$py.call_function(G:\devf3d\Flux1120\Java_sources\sources\factory\core\modules\corekernel\sources\cad\core\kernel\interpreter\pydb.py)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyFunction.__call__(Unknown Source)
+	at org.python.core.PyInstance.invoke(Unknown Source)
+	at pydb$py.__call__$159(G:\devf3d\Flux1120\Java_sources\sources\factory\core\modules\corekernel\sources\cad\core\kernel\interpreter\pydb.py:1229)
+	at pydb$py.call_function(G:\devf3d\Flux1120\Java_sources\sources\factory\core\modules\corekernel\sources\cad\core\kernel\interpreter\pydb.py)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyFunction.__call__(Unknown Source)
+	at org.python.core.PyMethod.__call__(Unknown Source)
+	at org.python.core.PyObject.invoke(Unknown Source)
+	at org.python.core.PyInstance.__call__(Unknown Source)
+	at org.python.pycode._pyx17.f$0(<input>:1)
+	at org.python.pycode._pyx17.call_function(<input>)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyCode.call(Unknown Source)
+	at org.python.core.Py.runCode(Unknown Source)
+	at org.python.core.Py.exec(Unknown Source)
+	at org.python.util.PythonInterpreter.exec(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.runCode(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.runsource(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.runsource(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.runsource(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.execute(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.executeFunction(Unknown Source)
+	at cad.core.kernel.encoder.CommandServerRequestsInputPlug.executeCommand(Unknown Source)
+	at stdcom.protocole.commandserverrequests.CommandServerRequestsRouter.executeCommand(Unknown Source)
+	at stdcom.protocole.commandserverrequests.CommandServerRequestsOutputPlug.executeCommand(Unknown Source)
+	at cad.core.frontal.decoder.FrontalDecoder.executeCommand(Unknown Source)
+	at cad.core.frontal.actions.implementation.GeneralAction.executeBox(Unknown Source)
+	at cad.flux.frontal.actions.implementation.algo.project.FSolveScenarioAction.executeBox(Unknown Source)
+	at cad.core.frontal.actions.implementation.GeneralAction.postAct(Unknown Source)
+	at cad.core.frontal.actions.implementation.GeneralAction.interpret(Unknown Source)
+	at cad.core.frontal.components.box.frontaldialog.FrontalDescriptorDialogBox.internalRun(Unknown Source)
+	at cad.core.frontal.frontalthread.WorkerThread.executeImplementer(Unknown Source)
+	at cad.core.frontal.frontalthread.WorkerThread.run(Unknown Source)
+-------------------------------------------
+Error 8 - Fatal error :
+MECDX3_2 => Singular jacobian for element 2484
+MECDX3_2 => Unable to compute jacobian
+MECDX2   => Failed
+PECIEG   => Failed
+PECIR2_1 => Failed....
+PECIR2   => Failed....
+PUCVOL   => Failed
+RGEVOL   => Failed
+FL6VPB   => Failed ...
+FL5RE4   => Command not executed correctly
+FL5ERS   => failed
+FL5ERS   => failed
+-------------------------------------------
+Error 9 - Fatal error :
+LoadNodeBorderToEleSurf => Unknown type of surfacic element
+LoadNodeToEleSurf => Unknown type of surfacic element
+loadCoordSurfElemBorder => failed
+stdcom.error.SoftFortranException: LoadNodeBorderToEleSurf => Unknown type of surfacic element
+	at cad.core.common.error.ErrorManager.createFortranException(Unknown Source)
+	at cad.flux.kernel.dbmanager.FGCProjectDbWrapper.loadCoordSurfElemBorder(Native Method)
+	at cad.flux.kernel.dbmanager.FGCProjectDbAdapter.loadCoordSurfElemBorder(Unknown Source)
+	at cad.flux.kernel.exporteddata.graphic.FGKernelGraphicWrapper.loadCoordSurfElemBorder(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cad.core.kernel.exporteddata.entity.DataManager.updateEvaluatedIndexedCoordinates(Unknown Source)
+	at cad.core.kernel.exporteddata.entity.DataManager.updateSharedCoordinates(Unknown Source)
+	at cad.core.kernel.exporteddata.entity.DataManager.setField(Unknown Source)
+	at cad.flux.kernel.exporteddata.entity.FGDataManager.setField(Unknown Source)
+	at cad.core.kernel.exporteddata.DocumentManager.getAllInstances(Unknown Source)
+	at cad.flux.kernel.exporteddata.FGDocumentManager.getAllInstances(Unknown Source)
+	at cad.core.kernel.encoder.InstanceServerRequestsInputPlug.getAllInstances(Unknown Source)
+	at stdcom.protocole.instanceserverrequests.InstanceServerRequestsRouter.getAllInstances(Unknown Source)
+	at stdcom.protocole.instanceserverrequests.InstanceServerRequestsOutputPlug.getAllInstances(Unknown Source)
+	at cad.core.frontal.decoder.FrontalDecoder.getAllInstances(Unknown Source)
+	at cad.core.frontal.data.Type.updateInstances(Unknown Source)
+	at cad.core.frontal.data.TypesManager.updateModifiedInstancesTypes(Unknown Source)
+	at cad.core.frontal.document.Document.updateInstances(Unknown Source)
+	at cad.core.frontal.document.Document.updateDatabase(Unknown Source)
+	at cad.core.frontal.document.display.DisplaysComponentManager.displaysListUpdated(Unknown Source)
+	at cad.core.frontal.encoder.DisplayListenerNotificationsInputPlug.displaysListUpdated(Unknown Source)
+	at stdcom.protocole.displaylistenernotifications.DisplayListenerNotificationsRouter.displaysListUpdated(Unknown Source)
+	at stdcom.protocole.displaylistenernotifications.DisplayListenerNotificationsOutputPlug.displaysListUpdated(Unknown Source)
+	at cad.core.kernel.decoder.KernelDecoder.displaysListUpdated(Unknown Source)
+	at cad.core.kernel.exporteddata.display.DefaultDisplaysManager.internalUpdateDisplays(Unknown Source)
+	at cad.core.kernel.exporteddata.display.DefaultDisplaysManager.updateDisplays(Unknown Source)
+	at cad.core.kernel.exporteddata.DocumentManager.getNewState(Unknown Source)
+	at cad.core.kernel.Supervisor.getNewState(Unknown Source)
+	at cad.core.common.dynamic.states.StateProject.manageState(Unknown Source)
+	at cad.core.common.dynamic.states.StateProject.setState(Unknown Source)
+	at cad.flux.kernel.FGSupervisor.executeNativeCommand(Unknown Source)
+	at cad.flux.kernel.actions.implementation.algo.project.KSolveScenarioAction.doAction(Unknown Source)
+	at cad.core.common.dynamic.actions.UIActionManager.postAction(Unknown Source)
+	at cad.core.kernel.KernelCommon.postAction(Unknown Source)
+	at cad.core.kernel.Supervisor.executeJavaCommand(Unknown Source)
+	at cad.core.kernel.Supervisor.executeCommand(Unknown Source)
+	at cad.core.kernel.Supervisor.executeMethod(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.python.core.PyReflectedFunction.__call__(Unknown Source)
+	at org.python.core.PyMethod.__call__(Unknown Source)
+	at org.python.core.PyObject.__call__(Unknown Source)
+	at org.python.core.PyObject.invoke(Unknown Source)
+	at pydb$py.executeMethod$187(G:\devf3d\Flux1120\Java_sources\sources\factory\core\modules\corekernel\sources\cad\core\kernel\interpreter\pydb.py:1415)
+	at pydb$py.call_function(G:\devf3d\Flux1120\Java_sources\sources\factory\core\modules\corekernel\sources\cad\core\kernel\interpreter\pydb.py)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyFunction.__call__(Unknown Source)
+	at org.python.core.PyInstance.invoke(Unknown Source)
+	at pydb$py.__call__$159(G:\devf3d\Flux1120\Java_sources\sources\factory\core\modules\corekernel\sources\cad\core\kernel\interpreter\pydb.py:1229)
+	at pydb$py.call_function(G:\devf3d\Flux1120\Java_sources\sources\factory\core\modules\corekernel\sources\cad\core\kernel\interpreter\pydb.py)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyFunction.__call__(Unknown Source)
+	at org.python.core.PyMethod.__call__(Unknown Source)
+	at org.python.core.PyObject.invoke(Unknown Source)
+	at org.python.core.PyInstance.__call__(Unknown Source)
+	at org.python.pycode._pyx19.f$0(<input>:1)
+	at org.python.pycode._pyx19.call_function(<input>)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyCode.call(Unknown Source)
+	at org.python.core.Py.runCode(Unknown Source)
+	at org.python.core.Py.exec(Unknown Source)
+	at org.python.util.PythonInterpreter.exec(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.runCode(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.runsource(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.runsource(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.runsource(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.execute(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.executeFunction(Unknown Source)
+	at cad.core.kernel.encoder.CommandServerRequestsInputPlug.executeCommand(Unknown Source)
+	at stdcom.protocole.commandserverrequests.CommandServerRequestsRouter.executeCommand(Unknown Source)
+	at stdcom.protocole.commandserverrequests.CommandServerRequestsOutputPlug.executeCommand(Unknown Source)
+	at cad.core.frontal.decoder.FrontalDecoder.executeCommand(Unknown Source)
+	at cad.core.frontal.actions.implementation.GeneralAction.executeBox(Unknown Source)
+	at cad.flux.frontal.actions.implementation.algo.project.FSolveScenarioAction.executeBox(Unknown Source)
+	at cad.core.frontal.actions.implementation.GeneralAction.postAct(Unknown Source)
+	at cad.core.frontal.actions.implementation.GeneralAction.interpret(Unknown Source)
+	at cad.core.frontal.components.box.frontaldialog.FrontalDescriptorDialogBox.internalRun(Unknown Source)
+	at cad.core.frontal.frontalthread.WorkerThread.executeImplementer(Unknown Source)
+	at cad.core.frontal.frontalthread.WorkerThread.run(Unknown Source)
+-------------------------------------------
+Error 10 - Fatal error :
+MECDX3_2 => Singular jacobian for element 2484
+MECDX3_2 => Unable to compute jacobian
+MECDX2   => Failed
+PECIEG   => Failed
+PECIR2_1 => Failed....
+PECIR2   => Failed....
+PUCVOL   => Failed
+RGEVOL   => Failed
+FL6VPB   => Failed ...
+FL5RE4   => Command not executed correctly
+FL5ERS   => failed
+FL5ERS   => failed
+-------------------------------------------
+Error 11 - Fatal error :
+LoadNodeBorderToEleSurf => Unknown type of surfacic element
+LoadNodeToEleSurf => Unknown type of surfacic element
+loadCoordSurfElemBorder => failed
+stdcom.error.SoftFortranException: LoadNodeBorderToEleSurf => Unknown type of surfacic element
+	at cad.core.common.error.ErrorManager.createFortranException(Unknown Source)
+	at cad.flux.kernel.dbmanager.FGCProjectDbWrapper.loadCoordSurfElemBorder(Native Method)
+	at cad.flux.kernel.dbmanager.FGCProjectDbAdapter.loadCoordSurfElemBorder(Unknown Source)
+	at cad.flux.kernel.exporteddata.graphic.FGKernelGraphicWrapper.loadCoordSurfElemBorder(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cad.core.kernel.exporteddata.entity.DataManager.updateEvaluatedIndexedCoordinates(Unknown Source)
+	at cad.core.kernel.exporteddata.entity.DataManager.updateSharedCoordinates(Unknown Source)
+	at cad.core.kernel.exporteddata.entity.DataManager.setField(Unknown Source)
+	at cad.flux.kernel.exporteddata.entity.FGDataManager.setField(Unknown Source)
+	at cad.core.kernel.exporteddata.DocumentManager.getAllInstances(Unknown Source)
+	at cad.flux.kernel.exporteddata.FGDocumentManager.getAllInstances(Unknown Source)
+	at cad.core.kernel.encoder.InstanceServerRequestsInputPlug.getAllInstances(Unknown Source)
+	at stdcom.protocole.instanceserverrequests.InstanceServerRequestsRouter.getAllInstances(Unknown Source)
+	at stdcom.protocole.instanceserverrequests.InstanceServerRequestsOutputPlug.getAllInstances(Unknown Source)
+	at cad.core.frontal.decoder.FrontalDecoder.getAllInstances(Unknown Source)
+	at cad.core.frontal.data.Type.updateInstances(Unknown Source)
+	at cad.core.frontal.data.TypesManager.updateModifiedInstancesTypes(Unknown Source)
+	at cad.core.frontal.document.Document.updateInstances(Unknown Source)
+	at cad.core.frontal.document.Document.updateDatabase(Unknown Source)
+	at cad.core.frontal.document.display.DisplaysComponentManager.displaysListUpdated(Unknown Source)
+	at cad.core.frontal.encoder.DisplayListenerNotificationsInputPlug.displaysListUpdated(Unknown Source)
+	at stdcom.protocole.displaylistenernotifications.DisplayListenerNotificationsRouter.displaysListUpdated(Unknown Source)
+	at stdcom.protocole.displaylistenernotifications.DisplayListenerNotificationsOutputPlug.displaysListUpdated(Unknown Source)
+	at cad.core.kernel.decoder.KernelDecoder.displaysListUpdated(Unknown Source)
+	at cad.core.kernel.exporteddata.display.DefaultDisplaysManager.internalUpdateDisplays(Unknown Source)
+	at cad.core.kernel.exporteddata.display.DefaultDisplaysManager.updateDisplays(Unknown Source)
+	at cad.core.kernel.exporteddata.DocumentManager.getNewState(Unknown Source)
+	at cad.core.kernel.Supervisor.getNewState(Unknown Source)
+	at cad.core.common.dynamic.states.StateProject.manageState(Unknown Source)
+	at cad.core.common.dynamic.states.StateProject.setState(Unknown Source)
+	at cad.flux.kernel.FGSupervisor.executeNativeCommand(Unknown Source)
+	at cad.flux.kernel.actions.implementation.algo.project.KSolveScenarioAction.doAction(Unknown Source)
+	at cad.core.common.dynamic.actions.UIActionManager.postAction(Unknown Source)
+	at cad.core.kernel.KernelCommon.postAction(Unknown Source)
+	at cad.core.kernel.Supervisor.executeJavaCommand(Unknown Source)
+	at cad.core.kernel.Supervisor.executeCommand(Unknown Source)
+	at cad.core.kernel.Supervisor.executeMethod(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.python.core.PyReflectedFunction.__call__(Unknown Source)
+	at org.python.core.PyMethod.__call__(Unknown Source)
+	at org.python.core.PyObject.__call__(Unknown Source)
+	at org.python.core.PyObject.invoke(Unknown Source)
+	at pydb$py.executeMethod$187(G:\devf3d\Flux1120\Java_sources\sources\factory\core\modules\corekernel\sources\cad\core\kernel\interpreter\pydb.py:1415)
+	at pydb$py.call_function(G:\devf3d\Flux1120\Java_sources\sources\factory\core\modules\corekernel\sources\cad\core\kernel\interpreter\pydb.py)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyFunction.__call__(Unknown Source)
+	at org.python.core.PyInstance.invoke(Unknown Source)
+	at pydb$py.__call__$159(G:\devf3d\Flux1120\Java_sources\sources\factory\core\modules\corekernel\sources\cad\core\kernel\interpreter\pydb.py:1229)
+	at pydb$py.call_function(G:\devf3d\Flux1120\Java_sources\sources\factory\core\modules\corekernel\sources\cad\core\kernel\interpreter\pydb.py)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyFunction.__call__(Unknown Source)
+	at org.python.core.PyMethod.__call__(Unknown Source)
+	at org.python.core.PyObject.invoke(Unknown Source)
+	at org.python.core.PyInstance.__call__(Unknown Source)
+	at org.python.pycode._pyx21.f$0(<input>:1)
+	at org.python.pycode._pyx21.call_function(<input>)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyCode.call(Unknown Source)
+	at org.python.core.Py.runCode(Unknown Source)
+	at org.python.core.Py.exec(Unknown Source)
+	at org.python.util.PythonInterpreter.exec(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.runCode(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.runsource(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.runsource(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.runsource(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.execute(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.executeFunction(Unknown Source)
+	at cad.core.kernel.encoder.CommandServerRequestsInputPlug.executeCommand(Unknown Source)
+	at stdcom.protocole.commandserverrequests.CommandServerRequestsRouter.executeCommand(Unknown Source)
+	at stdcom.protocole.commandserverrequests.CommandServerRequestsOutputPlug.executeCommand(Unknown Source)
+	at cad.core.frontal.decoder.FrontalDecoder.executeCommand(Unknown Source)
+	at cad.core.frontal.actions.implementation.GeneralAction.executeBox(Unknown Source)
+	at cad.flux.frontal.actions.implementation.algo.project.FSolveScenarioAction.executeBox(Unknown Source)
+	at cad.core.frontal.actions.implementation.GeneralAction.postAct(Unknown Source)
+	at cad.core.frontal.actions.implementation.GeneralAction.interpret(Unknown Source)
+	at cad.core.frontal.components.box.frontaldialog.FrontalDescriptorDialogBox.internalRun(Unknown Source)
+	at cad.core.frontal.frontalthread.WorkerThread.executeImplementer(Unknown Source)
+	at cad.core.frontal.frontalthread.WorkerThread.run(Unknown Source)
+-------------------------------------------
+Error 12 - Fatal error :
+MECDX3_2 => Singular jacobian for element 2484
+MECDX3_2 => Unable to compute jacobian
+MECDX2   => Failed
+PECIEG   => Failed
+PECIR2_1 => Failed....
+PECIR2   => Failed....
+PUCVOL   => Failed
+RGEVOL   => Failed
+FL6VPB   => Failed ...
+FL5RE4   => Command not executed correctly
+FL5ERS   => failed
+FL5ERS   => failed
+-------------------------------------------
+Error 13 - Fatal error :
+LoadNodeBorderToEleSurf => Unknown type of surfacic element
+LoadNodeToEleSurf => Unknown type of surfacic element
+loadCoordSurfElemBorder => failed
+stdcom.error.SoftFortranException: LoadNodeBorderToEleSurf => Unknown type of surfacic element
+	at cad.core.common.error.ErrorManager.createFortranException(Unknown Source)
+	at cad.flux.kernel.dbmanager.FGCProjectDbWrapper.loadCoordSurfElemBorder(Native Method)
+	at cad.flux.kernel.dbmanager.FGCProjectDbAdapter.loadCoordSurfElemBorder(Unknown Source)
+	at cad.flux.kernel.exporteddata.graphic.FGKernelGraphicWrapper.loadCoordSurfElemBorder(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor351.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cad.core.kernel.exporteddata.entity.DataManager.updateEvaluatedIndexedCoordinates(Unknown Source)
+	at cad.core.kernel.exporteddata.entity.DataManager.updateSharedCoordinates(Unknown Source)
+	at cad.core.kernel.exporteddata.entity.DataManager.setField(Unknown Source)
+	at cad.flux.kernel.exporteddata.entity.FGDataManager.setField(Unknown Source)
+	at cad.core.kernel.exporteddata.DocumentManager.getAllInstances(Unknown Source)
+	at cad.flux.kernel.exporteddata.FGDocumentManager.getAllInstances(Unknown Source)
+	at cad.core.kernel.encoder.InstanceServerRequestsInputPlug.getAllInstances(Unknown Source)
+	at stdcom.protocole.instanceserverrequests.InstanceServerRequestsRouter.getAllInstances(Unknown Source)
+	at stdcom.protocole.instanceserverrequests.InstanceServerRequestsOutputPlug.getAllInstances(Unknown Source)
+	at cad.core.frontal.decoder.FrontalDecoder.getAllInstances(Unknown Source)
+	at cad.core.frontal.data.Type.updateInstances(Unknown Source)
+	at cad.core.frontal.data.TypesManager.updateModifiedInstancesTypes(Unknown Source)
+	at cad.core.frontal.document.Document.updateInstances(Unknown Source)
+	at cad.core.frontal.document.Document.updateDatabase(Unknown Source)
+	at cad.core.frontal.document.display.DisplaysComponentManager.displaysListUpdated(Unknown Source)
+	at cad.core.frontal.encoder.DisplayListenerNotificationsInputPlug.displaysListUpdated(Unknown Source)
+	at stdcom.protocole.displaylistenernotifications.DisplayListenerNotificationsRouter.displaysListUpdated(Unknown Source)
+	at stdcom.protocole.displaylistenernotifications.DisplayListenerNotificationsOutputPlug.displaysListUpdated(Unknown Source)
+	at cad.core.kernel.decoder.KernelDecoder.displaysListUpdated(Unknown Source)
+	at cad.core.kernel.exporteddata.display.DefaultDisplaysManager.internalUpdateDisplays(Unknown Source)
+	at cad.core.kernel.exporteddata.display.DefaultDisplaysManager.updateDisplays(Unknown Source)
+	at cad.core.kernel.exporteddata.DocumentManager.getNewState(Unknown Source)
+	at cad.core.kernel.Supervisor.getNewState(Unknown Source)
+	at cad.core.common.dynamic.states.StateProject.manageState(Unknown Source)
+	at cad.core.common.dynamic.states.StateProject.setState(Unknown Source)
+	at cad.flux.kernel.FGSupervisor.executeNativeCommand(Unknown Source)
+	at cad.flux.kernel.actions.implementation.algo.project.KSolveScenarioAction.doAction(Unknown Source)
+	at cad.core.common.dynamic.actions.UIActionManager.postAction(Unknown Source)
+	at cad.core.kernel.KernelCommon.postAction(Unknown Source)
+	at cad.core.kernel.Supervisor.executeJavaCommand(Unknown Source)
+	at cad.core.kernel.Supervisor.executeCommand(Unknown Source)
+	at cad.core.kernel.Supervisor.executeMethod(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.python.core.PyReflectedFunction.__call__(Unknown Source)
+	at org.python.core.PyMethod.__call__(Unknown Source)
+	at org.python.core.PyObject.__call__(Unknown Source)
+	at org.python.core.PyObject.invoke(Unknown Source)
+	at pydb$py.executeMethod$187(G:\devf3d\Flux1120\Java_sources\sources\factory\core\modules\corekernel\sources\cad\core\kernel\interpreter\pydb.py:1415)
+	at pydb$py.call_function(G:\devf3d\Flux1120\Java_sources\sources\factory\core\modules\corekernel\sources\cad\core\kernel\interpreter\pydb.py)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyFunction.__call__(Unknown Source)
+	at org.python.core.PyInstance.invoke(Unknown Source)
+	at pydb$py.__call__$159(G:\devf3d\Flux1120\Java_sources\sources\factory\core\modules\corekernel\sources\cad\core\kernel\interpreter\pydb.py:1229)
+	at pydb$py.call_function(G:\devf3d\Flux1120\Java_sources\sources\factory\core\modules\corekernel\sources\cad\core\kernel\interpreter\pydb.py)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyFunction.__call__(Unknown Source)
+	at org.python.core.PyMethod.__call__(Unknown Source)
+	at org.python.core.PyObject.invoke(Unknown Source)
+	at org.python.core.PyInstance.__call__(Unknown Source)
+	at org.python.pycode._pyx24.f$0(<input>:1)
+	at org.python.pycode._pyx24.call_function(<input>)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyCode.call(Unknown Source)
+	at org.python.core.Py.runCode(Unknown Source)
+	at org.python.core.Py.exec(Unknown Source)
+	at org.python.util.PythonInterpreter.exec(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.runCode(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.runsource(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.runsource(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.runsource(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.execute(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.executeFunction(Unknown Source)
+	at cad.core.kernel.encoder.CommandServerRequestsInputPlug.executeCommand(Unknown Source)
+	at stdcom.protocole.commandserverrequests.CommandServerRequestsRouter.executeCommand(Unknown Source)
+	at stdcom.protocole.commandserverrequests.CommandServerRequestsOutputPlug.executeCommand(Unknown Source)
+	at cad.core.frontal.decoder.FrontalDecoder.executeCommand(Unknown Source)
+	at cad.core.frontal.actions.implementation.GeneralAction.executeBox(Unknown Source)
+	at cad.flux.frontal.actions.implementation.algo.project.FSolveScenarioAction.executeBox(Unknown Source)
+	at cad.core.frontal.actions.implementation.GeneralAction.postAct(Unknown Source)
+	at cad.core.frontal.actions.implementation.GeneralAction.interpret(Unknown Source)
+	at cad.core.frontal.components.box.frontaldialog.FrontalDescriptorDialogBox.internalRun(Unknown Source)
+	at cad.core.frontal.frontalthread.WorkerThread.executeImplementer(Unknown Source)
+	at cad.core.frontal.frontalthread.WorkerThread.run(Unknown Source)
+-------------------------------------------
+Error 14 - Fatal error :
+MECDX3_2 => Singular jacobian for element 2484
+MECDX3_2 => Unable to compute jacobian
+MECDX2   => Failed
+PECIEG   => Failed
+PECIR2_1 => Failed....
+PECIR2   => Failed....
+PUCVOL   => Failed
+RGEVOL   => Failed
+FL6VPB   => Failed ...
+FL5RE4   => Command not executed correctly
+FL5ERS   => failed
+FL5ERS   => failed
+-------------------------------------------
+Error 15 - Fatal error :
+LoadNodeBorderToEleSurf => Unknown type of surfacic element
+LoadNodeToEleSurf => Unknown type of surfacic element
+loadCoordSurfElemBorder => failed
+stdcom.error.SoftFortranException: LoadNodeBorderToEleSurf => Unknown type of surfacic element
+	at cad.core.common.error.ErrorManager.createFortranException(Unknown Source)
+	at cad.flux.kernel.dbmanager.FGCProjectDbWrapper.loadCoordSurfElemBorder(Native Method)
+	at cad.flux.kernel.dbmanager.FGCProjectDbAdapter.loadCoordSurfElemBorder(Unknown Source)
+	at cad.flux.kernel.exporteddata.graphic.FGKernelGraphicWrapper.loadCoordSurfElemBorder(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor351.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cad.core.kernel.exporteddata.entity.DataManager.updateEvaluatedIndexedCoordinates(Unknown Source)
+	at cad.core.kernel.exporteddata.entity.DataManager.updateSharedCoordinates(Unknown Source)
+	at cad.core.kernel.exporteddata.entity.DataManager.setField(Unknown Source)
+	at cad.flux.kernel.exporteddata.entity.FGDataManager.setField(Unknown Source)
+	at cad.core.kernel.exporteddata.DocumentManager.getAllInstances(Unknown Source)
+	at cad.flux.kernel.exporteddata.FGDocumentManager.getAllInstances(Unknown Source)
+	at cad.core.kernel.encoder.InstanceServerRequestsInputPlug.getAllInstances(Unknown Source)
+	at stdcom.protocole.instanceserverrequests.InstanceServerRequestsRouter.getAllInstances(Unknown Source)
+	at stdcom.protocole.instanceserverrequests.InstanceServerRequestsOutputPlug.getAllInstances(Unknown Source)
+	at cad.core.frontal.decoder.FrontalDecoder.getAllInstances(Unknown Source)
+	at cad.core.frontal.data.Type.updateInstances(Unknown Source)
+	at cad.core.frontal.data.TypesManager.updateModifiedInstancesTypes(Unknown Source)
+	at cad.core.frontal.document.Document.updateInstances(Unknown Source)
+	at cad.core.frontal.document.Document.updateDatabase(Unknown Source)
+	at cad.core.frontal.document.display.DisplaysComponentManager.displaysListUpdated(Unknown Source)
+	at cad.core.frontal.encoder.DisplayListenerNotificationsInputPlug.displaysListUpdated(Unknown Source)
+	at stdcom.protocole.displaylistenernotifications.DisplayListenerNotificationsRouter.displaysListUpdated(Unknown Source)
+	at stdcom.protocole.displaylistenernotifications.DisplayListenerNotificationsOutputPlug.displaysListUpdated(Unknown Source)
+	at cad.core.kernel.decoder.KernelDecoder.displaysListUpdated(Unknown Source)
+	at cad.core.kernel.exporteddata.display.DefaultDisplaysManager.internalUpdateDisplays(Unknown Source)
+	at cad.core.kernel.exporteddata.display.DefaultDisplaysManager.updateDisplays(Unknown Source)
+	at cad.core.kernel.exporteddata.DocumentManager.getNewState(Unknown Source)
+	at cad.core.kernel.Supervisor.getNewState(Unknown Source)
+	at cad.core.common.dynamic.states.StateProject.manageState(Unknown Source)
+	at cad.core.common.dynamic.states.StateProject.setState(Unknown Source)
+	at cad.flux.kernel.FGSupervisor.executeNativeCommand(Unknown Source)
+	at cad.flux.kernel.actions.implementation.algo.project.KSolveScenarioAction.doAction(Unknown Source)
+	at cad.core.common.dynamic.actions.UIActionManager.postAction(Unknown Source)
+	at cad.core.kernel.KernelCommon.postAction(Unknown Source)
+	at cad.core.kernel.Supervisor.executeJavaCommand(Unknown Source)
+	at cad.core.kernel.Supervisor.executeCommand(Unknown Source)
+	at cad.core.kernel.Supervisor.executeMethod(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.python.core.PyReflectedFunction.__call__(Unknown Source)
+	at org.python.core.PyMethod.__call__(Unknown Source)
+	at org.python.core.PyObject.__call__(Unknown Source)
+	at org.python.core.PyObject.invoke(Unknown Source)
+	at pydb$py.executeMethod$187(G:\devf3d\Flux1120\Java_sources\sources\factory\core\modules\corekernel\sources\cad\core\kernel\interpreter\pydb.py:1415)
+	at pydb$py.call_function(G:\devf3d\Flux1120\Java_sources\sources\factory\core\modules\corekernel\sources\cad\core\kernel\interpreter\pydb.py)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyFunction.__call__(Unknown Source)
+	at org.python.core.PyInstance.invoke(Unknown Source)
+	at pydb$py.__call__$159(G:\devf3d\Flux1120\Java_sources\sources\factory\core\modules\corekernel\sources\cad\core\kernel\interpreter\pydb.py:1229)
+	at pydb$py.call_function(G:\devf3d\Flux1120\Java_sources\sources\factory\core\modules\corekernel\sources\cad\core\kernel\interpreter\pydb.py)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyFunction.__call__(Unknown Source)
+	at org.python.core.PyMethod.__call__(Unknown Source)
+	at org.python.core.PyObject.invoke(Unknown Source)
+	at org.python.core.PyInstance.__call__(Unknown Source)
+	at org.python.pycode._pyx35.f$0(<input>:1)
+	at org.python.pycode._pyx35.call_function(<input>)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyCode.call(Unknown Source)
+	at org.python.core.Py.runCode(Unknown Source)
+	at org.python.core.Py.exec(Unknown Source)
+	at org.python.util.PythonInterpreter.exec(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.runCode(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.runsource(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.runsource(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.runsource(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.execute(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.executeFunction(Unknown Source)
+	at cad.core.kernel.encoder.CommandServerRequestsInputPlug.executeCommand(Unknown Source)
+	at stdcom.protocole.commandserverrequests.CommandServerRequestsRouter.executeCommand(Unknown Source)
+	at stdcom.protocole.commandserverrequests.CommandServerRequestsOutputPlug.executeCommand(Unknown Source)
+	at cad.core.frontal.decoder.FrontalDecoder.executeCommand(Unknown Source)
+	at cad.core.frontal.actions.implementation.GeneralAction.executeBox(Unknown Source)
+	at cad.flux.frontal.actions.implementation.algo.project.FSolveScenarioAction.executeBox(Unknown Source)
+	at cad.core.frontal.actions.implementation.GeneralAction.postAct(Unknown Source)
+	at cad.core.frontal.actions.implementation.GeneralAction.interpret(Unknown Source)
+	at cad.core.frontal.components.box.frontaldialog.FrontalDescriptorDialogBox.internalRun(Unknown Source)
+	at cad.core.frontal.frontalthread.WorkerThread.executeImplementer(Unknown Source)
+	at cad.core.frontal.frontalthread.WorkerThread.run(Unknown Source)
+-------------------------------------------
+Error 16 - Fatal error :
+MECDX3_2 => Singular jacobian for element 2484
+MECDX3_2 => Unable to compute jacobian
+MECDX2   => Failed
+PECIEG   => Failed
+PECIR2_1 => Failed....
+PECIR2   => Failed....
+PUCVOL   => Failed
+RGEVOL   => Failed
+FL6VPB   => Failed ...
+FL5RE4   => Command not executed correctly
+FL5ERS   => failed
+FL5ERS   => failed
+-------------------------------------------
+Error 17 - Fatal error :
+LoadNodeBorderToEleSurf => Unknown type of surfacic element
+LoadNodeToEleSurf => Unknown type of surfacic element
+loadCoordSurfElemBorder => failed
+stdcom.error.SoftFortranException: LoadNodeBorderToEleSurf => Unknown type of surfacic element
+	at cad.core.common.error.ErrorManager.createFortranException(Unknown Source)
+	at cad.flux.kernel.dbmanager.FGCProjectDbWrapper.loadCoordSurfElemBorder(Native Method)
+	at cad.flux.kernel.dbmanager.FGCProjectDbAdapter.loadCoordSurfElemBorder(Unknown Source)
+	at cad.flux.kernel.exporteddata.graphic.FGKernelGraphicWrapper.loadCoordSurfElemBorder(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor351.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cad.core.kernel.exporteddata.entity.DataManager.updateEvaluatedIndexedCoordinates(Unknown Source)
+	at cad.core.kernel.exporteddata.entity.DataManager.updateSharedCoordinates(Unknown Source)
+	at cad.core.kernel.exporteddata.entity.DataManager.setField(Unknown Source)
+	at cad.flux.kernel.exporteddata.entity.FGDataManager.setField(Unknown Source)
+	at cad.core.kernel.exporteddata.DocumentManager.getAllInstances(Unknown Source)
+	at cad.flux.kernel.exporteddata.FGDocumentManager.getAllInstances(Unknown Source)
+	at cad.core.kernel.encoder.InstanceServerRequestsInputPlug.getAllInstances(Unknown Source)
+	at stdcom.protocole.instanceserverrequests.InstanceServerRequestsRouter.getAllInstances(Unknown Source)
+	at stdcom.protocole.instanceserverrequests.InstanceServerRequestsOutputPlug.getAllInstances(Unknown Source)
+	at cad.core.frontal.decoder.FrontalDecoder.getAllInstances(Unknown Source)
+	at cad.core.frontal.data.Type.updateInstances(Unknown Source)
+	at cad.core.frontal.data.TypesManager.updateModifiedInstancesTypes(Unknown Source)
+	at cad.core.frontal.document.Document.updateInstances(Unknown Source)
+	at cad.core.frontal.document.Document.updateDatabase(Unknown Source)
+	at cad.core.frontal.document.display.DisplaysComponentManager.displaysListUpdated(Unknown Source)
+	at cad.core.frontal.encoder.DisplayListenerNotificationsInputPlug.displaysListUpdated(Unknown Source)
+	at stdcom.protocole.displaylistenernotifications.DisplayListenerNotificationsRouter.displaysListUpdated(Unknown Source)
+	at stdcom.protocole.displaylistenernotifications.DisplayListenerNotificationsOutputPlug.displaysListUpdated(Unknown Source)
+	at cad.core.kernel.decoder.KernelDecoder.displaysListUpdated(Unknown Source)
+	at cad.core.kernel.exporteddata.display.DefaultDisplaysManager.internalUpdateDisplays(Unknown Source)
+	at cad.core.kernel.exporteddata.display.DefaultDisplaysManager.updateDisplays(Unknown Source)
+	at cad.core.kernel.exporteddata.DocumentManager.getNewState(Unknown Source)
+	at cad.core.kernel.Supervisor.getNewState(Unknown Source)
+	at cad.core.common.dynamic.states.StateProject.manageState(Unknown Source)
+	at cad.core.common.dynamic.states.StateProject.setState(Unknown Source)
+	at cad.flux.kernel.FGSupervisor.executeNativeCommand(Unknown Source)
+	at cad.flux.kernel.actions.implementation.algo.project.KSolveScenarioAction.doAction(Unknown Source)
+	at cad.core.common.dynamic.actions.UIActionManager.postAction(Unknown Source)
+	at cad.core.kernel.KernelCommon.postAction(Unknown Source)
+	at cad.core.kernel.Supervisor.executeJavaCommand(Unknown Source)
+	at cad.core.kernel.Supervisor.executeCommand(Unknown Source)
+	at cad.core.kernel.Supervisor.executeMethod(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.python.core.PyReflectedFunction.__call__(Unknown Source)
+	at org.python.core.PyMethod.__call__(Unknown Source)
+	at org.python.core.PyObject.__call__(Unknown Source)
+	at org.python.core.PyObject.invoke(Unknown Source)
+	at pydb$py.executeMethod$187(G:\devf3d\Flux1120\Java_sources\sources\factory\core\modules\corekernel\sources\cad\core\kernel\interpreter\pydb.py:1415)
+	at pydb$py.call_function(G:\devf3d\Flux1120\Java_sources\sources\factory\core\modules\corekernel\sources\cad\core\kernel\interpreter\pydb.py)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyFunction.__call__(Unknown Source)
+	at org.python.core.PyInstance.invoke(Unknown Source)
+	at pydb$py.__call__$159(G:\devf3d\Flux1120\Java_sources\sources\factory\core\modules\corekernel\sources\cad\core\kernel\interpreter\pydb.py:1229)
+	at pydb$py.call_function(G:\devf3d\Flux1120\Java_sources\sources\factory\core\modules\corekernel\sources\cad\core\kernel\interpreter\pydb.py)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyFunction.__call__(Unknown Source)
+	at org.python.core.PyMethod.__call__(Unknown Source)
+	at org.python.core.PyObject.invoke(Unknown Source)
+	at org.python.core.PyInstance.__call__(Unknown Source)
+	at org.python.pycode._pyx46.f$0(<input>:1)
+	at org.python.pycode._pyx46.call_function(<input>)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyCode.call(Unknown Source)
+	at org.python.core.Py.runCode(Unknown Source)
+	at org.python.core.Py.exec(Unknown Source)
+	at org.python.util.PythonInterpreter.exec(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.runCode(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.runsource(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.runsource(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.runsource(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.execute(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.executeFunction(Unknown Source)
+	at cad.core.kernel.encoder.CommandServerRequestsInputPlug.executeCommand(Unknown Source)
+	at stdcom.protocole.commandserverrequests.CommandServerRequestsRouter.executeCommand(Unknown Source)
+	at stdcom.protocole.commandserverrequests.CommandServerRequestsOutputPlug.executeCommand(Unknown Source)
+	at cad.core.frontal.decoder.FrontalDecoder.executeCommand(Unknown Source)
+	at cad.core.frontal.actions.implementation.GeneralAction.executeBox(Unknown Source)
+	at cad.flux.frontal.actions.implementation.algo.project.FSolveScenarioAction.executeBox(Unknown Source)
+	at cad.core.frontal.actions.implementation.GeneralAction.postAct(Unknown Source)
+	at cad.core.frontal.actions.implementation.GeneralAction.interpret(Unknown Source)
+	at cad.core.frontal.components.box.frontaldialog.FrontalDescriptorDialogBox.internalRun(Unknown Source)
+	at cad.core.frontal.frontalthread.WorkerThread.executeImplementer(Unknown Source)
+	at cad.core.frontal.frontalthread.WorkerThread.run(Unknown Source)
+-------------------------------------------
+Error 18 - Fatal error :
+MECDX3_2 => Singular jacobian for element 2484
+MECDX3_2 => Unable to compute jacobian
+MECDX2   => Failed
+PECIEG   => Failed
+PECIR2_1 => Failed....
+PECIR2   => Failed....
+PUCVOL   => Failed
+RGEVOL   => Failed
+FL6VPB   => Failed ...
+MECDX3_2 => Singular jacobian for element 2484
+MECDX3_2 => Unable to compute jacobian
+MECDX2   => Failed
+PECIEG   => Failed
+PECIR2_1 => Failed....
+PECIR2   => Failed....
+PUCVOL   => Failed
+RGEVOL   => Failed
+FL6VPB   => Failed ...
+FL5RE4   => Command not executed correctly
+FL5ERS   => failed
+FL5ERS   => failed
+-------------------------------------------
+Error 19 - Fatal error :
+LoadNodeBorderToEleSurf => Unknown type of surfacic element
+LoadNodeToEleSurf => Unknown type of surfacic element
+loadCoordSurfElemBorder => failed
+stdcom.error.SoftFortranException: LoadNodeBorderToEleSurf => Unknown type of surfacic element
+	at cad.core.common.error.ErrorManager.createFortranException(Unknown Source)
+	at cad.flux.kernel.dbmanager.FGCProjectDbWrapper.loadCoordSurfElemBorder(Native Method)
+	at cad.flux.kernel.dbmanager.FGCProjectDbAdapter.loadCoordSurfElemBorder(Unknown Source)
+	at cad.flux.kernel.exporteddata.graphic.FGKernelGraphicWrapper.loadCoordSurfElemBorder(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor351.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cad.core.kernel.exporteddata.entity.DataManager.updateEvaluatedIndexedCoordinates(Unknown Source)
+	at cad.core.kernel.exporteddata.entity.DataManager.updateSharedCoordinates(Unknown Source)
+	at cad.core.kernel.exporteddata.entity.DataManager.setField(Unknown Source)
+	at cad.flux.kernel.exporteddata.entity.FGDataManager.setField(Unknown Source)
+	at cad.core.kernel.exporteddata.DocumentManager.getAllInstances(Unknown Source)
+	at cad.flux.kernel.exporteddata.FGDocumentManager.getAllInstances(Unknown Source)
+	at cad.core.kernel.encoder.InstanceServerRequestsInputPlug.getAllInstances(Unknown Source)
+	at stdcom.protocole.instanceserverrequests.InstanceServerRequestsRouter.getAllInstances(Unknown Source)
+	at stdcom.protocole.instanceserverrequests.InstanceServerRequestsOutputPlug.getAllInstances(Unknown Source)
+	at cad.core.frontal.decoder.FrontalDecoder.getAllInstances(Unknown Source)
+	at cad.core.frontal.data.Type.updateInstances(Unknown Source)
+	at cad.core.frontal.data.TypesManager.updateModifiedInstancesTypes(Unknown Source)
+	at cad.core.frontal.document.Document.updateInstances(Unknown Source)
+	at cad.core.frontal.document.Document.updateDatabase(Unknown Source)
+	at cad.core.frontal.document.display.DisplaysComponentManager.displaysListUpdated(Unknown Source)
+	at cad.core.frontal.encoder.DisplayListenerNotificationsInputPlug.displaysListUpdated(Unknown Source)
+	at stdcom.protocole.displaylistenernotifications.DisplayListenerNotificationsRouter.displaysListUpdated(Unknown Source)
+	at stdcom.protocole.displaylistenernotifications.DisplayListenerNotificationsOutputPlug.displaysListUpdated(Unknown Source)
+	at cad.core.kernel.decoder.KernelDecoder.displaysListUpdated(Unknown Source)
+	at cad.core.kernel.exporteddata.display.DefaultDisplaysManager.internalUpdateDisplays(Unknown Source)
+	at cad.core.kernel.exporteddata.display.DefaultDisplaysManager.updateDisplays(Unknown Source)
+	at cad.core.kernel.exporteddata.DocumentManager.getNewState(Unknown Source)
+	at cad.core.kernel.Supervisor.getNewState(Unknown Source)
+	at cad.core.common.dynamic.states.StateProject.manageState(Unknown Source)
+	at cad.core.common.dynamic.states.StateProject.setState(Unknown Source)
+	at cad.flux.kernel.FGSupervisor.executeNativeCommand(Unknown Source)
+	at cad.flux.kernel.actions.implementation.algo.project.KSolveScenarioAction.doAction(Unknown Source)
+	at cad.core.common.dynamic.actions.UIActionManager.postAction(Unknown Source)
+	at cad.core.kernel.KernelCommon.postAction(Unknown Source)
+	at cad.core.kernel.Supervisor.executeJavaCommand(Unknown Source)
+	at cad.core.kernel.Supervisor.executeCommand(Unknown Source)
+	at cad.core.kernel.Supervisor.executeMethod(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.python.core.PyReflectedFunction.__call__(Unknown Source)
+	at org.python.core.PyMethod.__call__(Unknown Source)
+	at org.python.core.PyObject.__call__(Unknown Source)
+	at org.python.core.PyObject.invoke(Unknown Source)
+	at pydb$py.executeMethod$187(G:\devf3d\Flux1120\Java_sources\sources\factory\core\modules\corekernel\sources\cad\core\kernel\interpreter\pydb.py:1415)
+	at pydb$py.call_function(G:\devf3d\Flux1120\Java_sources\sources\factory\core\modules\corekernel\sources\cad\core\kernel\interpreter\pydb.py)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyFunction.__call__(Unknown Source)
+	at org.python.core.PyInstance.invoke(Unknown Source)
+	at pydb$py.__call__$159(G:\devf3d\Flux1120\Java_sources\sources\factory\core\modules\corekernel\sources\cad\core\kernel\interpreter\pydb.py:1229)
+	at pydb$py.call_function(G:\devf3d\Flux1120\Java_sources\sources\factory\core\modules\corekernel\sources\cad\core\kernel\interpreter\pydb.py)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyFunction.__call__(Unknown Source)
+	at org.python.core.PyMethod.__call__(Unknown Source)
+	at org.python.core.PyObject.invoke(Unknown Source)
+	at org.python.core.PyInstance.__call__(Unknown Source)
+	at org.python.pycode._pyx50.f$0(<input>:1)
+	at org.python.pycode._pyx50.call_function(<input>)
+	at org.python.core.PyTableCode.call(Unknown Source)
+	at org.python.core.PyCode.call(Unknown Source)
+	at org.python.core.Py.runCode(Unknown Source)
+	at org.python.core.Py.exec(Unknown Source)
+	at org.python.util.PythonInterpreter.exec(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.runCode(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.runsource(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.runsource(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.runsource(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.execute(Unknown Source)
+	at cad.core.kernel.components.PythonWrapper.executeFunction(Unknown Source)
+	at cad.core.kernel.encoder.CommandServerRequestsInputPlug.executeCommand(Unknown Source)
+	at stdcom.protocole.commandserverrequests.CommandServerRequestsRouter.executeCommand(Unknown Source)
+	at stdcom.protocole.commandserverrequests.CommandServerRequestsOutputPlug.executeCommand(Unknown Source)
+	at cad.core.frontal.decoder.FrontalDecoder.executeCommand(Unknown Source)
+	at cad.core.frontal.actions.implementation.GeneralAction.executeBox(Unknown Source)
+	at cad.flux.frontal.actions.implementation.algo.project.FSolveScenarioAction.executeBox(Unknown Source)
+	at cad.core.frontal.actions.implementation.GeneralAction.postAct(Unknown Source)
+	at cad.core.frontal.actions.implementation.GeneralAction.interpret(Unknown Source)
+	at cad.core.frontal.components.box.frontaldialog.FrontalDescriptorDialogBox.internalRun(Unknown Source)
+	at cad.core.frontal.frontalthread.WorkerThread.executeImplementer(Unknown Source)
+	at cad.core.frontal.frontalthread.WorkerThread.run(Unknown Source)
+-------------------------------------------
+Error 20 - Fatal error :
+PV_R_VAL_DEV => No model found
+EVP_FNUM => Failed ...
+SCR_FNUM => Evaluation is aborted
+BAFOCC   => Evaluation aborted
+PAFVAL   => Failed
+PBFGEO_1 => Failed
+PBFEX1   => failed..
+OCER08   => Attribute recording aborted
+OCS01A_1 => Attributes saving or restoring aborted RB.F3D.NOEUD.RAN1_VAL
+BDSOC2_1 => Restoring occurrences aborted
+ROSFIC   => Failed
+PEEVAR_1 => Incorrect name of value
+ROLVN2   => Failed
+PBFEXP   => failed..
+EMSPGM   => No initial structure (1)
+EMSPGM   => Failed
+PV_R_VAL_DEV => No model found
+EVP_FNUM => Failed ...
+SCR_FNUM => Evaluation is aborted
+BAFOCC   => Evaluation aborted
+PAFREF   => Failed
+PBFEVO_1 => Failed
+PV_R_VAL_DEV => No model found
+EVP_FNUM => Failed ...
+SCR_FNUM => Evaluation is aborted
+BAFOCC   => Evaluation aborted
+PAFVAL   => Failed
+PBFGEO_1 => Failed
+PBFEX1   => failed..
+OCER08   => Attribute recording aborted
+OCS01A_1 => Attributes saving or restoring aborted RB.F3D.NOEUD.RAN1_VAL
+BDSOC2_1 => Restoring occurrences aborted
+ROSFIC   => Failed
+PEEVAR_1 => Incorrect name of value
+ROLVN2   => Failed
+PBFEXP   => failed..
+EMSPGM   => No initial structure (1)
+EMSPGM   => Failed
+PV_R_VAL_DEV => No model found
+EVP_FNUM => Failed ...
+SCR_FNUM => Evaluation is aborted
+BAFOCC   => Evaluation aborted
+PAFREF   => Failed
+PBFEVO_1 => Failed
+PV_R_VAL_DEV => Evaluation failed
+BAFOC2_2 => Evaluation failed
+BAFOC2   => Evaluation failed
+PEEVAR_1 => failed
+PEEVLV_1 => failed
+PV_R_VAL_DEV => Evaluation failed
+BAFOC2_2 => Evaluation failed
+BAFOC2   => Evaluation failed
+PV_R_VAL_DEV => Evaluation failed
+BAFOC2_2 => Evaluation failed
+BAFOC2   => Evaluation failed
+PEEVAR_1 => failed
+PEEVLV_1 => failed
+PV_R_VAL_DEV => Evaluation failed
+BAFOC2_2 => Evaluation failed
+BAFOC2   => Evaluation failed
+PV_R_VAL_DEV => Evaluation failed
+BAFOC2_2 => Evaluation failed
+BAFOC2   => Evaluation failed
+PEEVAR_1 => failed
+PEEVLV_1 => failed
+PV_R_VAL_DEV => Evaluation failed
+BAFOC2_2 => Evaluation failed
+BAFOC2   => Evaluation failed
+PV_R_VAL_DEV => Evaluation failed
+BAFOC2_2 => Evaluation failed
+BAFOC2   => Evaluation failed
+PEEVAR_1 => failed
+PEEVLV_1 => failed
+PV_R_VAL_DEV => Evaluation failed
+BAFOC2_2 => Evaluation failed
+BAFOC2   => Evaluation failed
+-------------------------------------------
+Error 21 - Fatal error :
+Warning : the field ' Type of kinematics ' is not set. Check carefully its value before validating the box.
+
+-------------------------------------------
+Error 22 - Fatal error :
+Warning : the field ' Transientmagnet ' is not set. Check carefully its value before validating the box.
+
+-------------------------------------------
+Error 23 - Fatal error :
+Warning : the field ' Transientmagnet ' is not set. Check carefully its value before validating the box.
+
+-------------------------------------------
+Error 24 - Fatal error :
+Warning : the field ' Transientmagnet ' is not set. Check carefully its value before validating the box.
+
+-------------------------------------------
+Error 25 - Fatal error :
+Warning : the field ' Transientmagnet ' is not set. Check carefully its value before validating the box.
+
+-------------------------------------------
+Error 26 - Fatal error :
+Warning : the field ' Transientmagnet ' is not set. Check carefully its value before validating the box.
+
+-------------------------------------------
+Error 27 - Fatal error :
+Warning : the field ' Transientmagnet ' is not set. Check carefully its value before validating the box.
+
+-------------------------------------------
+Error 28 - Fatal error :
+Warning : the field ' Transientmagnet ' is not set. Check carefully its value before validating the box.
+
+-------------------------------------------
+Error 29 - Fatal error :
+The faces are not meshed.
+Please mesh the faces of the geometry.
+Impossible to solve problem
+
+-------------------------------------------
+Error 30 - Fatal error :
+INIFINITE: This region is not completely characterized
+In Physical, [MODIFY] [REG_SURF] [MAG_TRANS_AXI]
+ The stranded coil COILCONDUCTOR is associated neither to a coil, nor to an electrical conductor
+ Impossible to solve the problem with the electric circuit
+Impossible to solve problem
+
+-------------------------------------------
+Error 31 - Fatal error :
+INIFINITE: This region is not completely characterized
+In Physical, [MODIFY] [REG_SURF] [MAG_TRANS_AXI]
+Impossible to solve problem
+
+-------------------------------------------
+Error 32 - Fatal error :
+INIFINITE: This region is not completely characterized
+In Physical, [MODIFY] [REG_SURF] [MAG_TRANS_AXI]
+
+-------------------------------------------
+Error 33 - Fatal error :
+INIFINITE: This region is not completely characterized
+In Physical, [MODIFY] [REG_SURF] [MAG_TRANS_AXI]
+
+-------------------------------------------

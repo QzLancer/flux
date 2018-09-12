@@ -1,2 +1,2 @@
 SOFTWARE : FLUX2D_11.2.0 : 2D Finite Element Electromagnetism
-USECASE  : Flux2DMagneticDCAxiSolv3DNotSolved
+USECASE  : Flux2DMagneticDCAxiSolv3DSolved

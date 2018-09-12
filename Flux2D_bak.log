@@ -1,0 +1,750 @@
+Loading data model 'Flux_model.stp'
+Recording commands in 'D:/Flux_Learning/Flux2D_log.py'
+ 
+                                      FLUX2D_11.2.0 : 2D Finite Element Electromagnetism
+                                              600 MiB N. + 50 MiB C. + 200 MiB J.
+                                      Build 1311270817 Win32 4/8 cores QZLANCER-XPS 35195
+ 
+16:51:38       0 sec. FLUX2D_11.2.0 kernel initialized
+
+Flux2D (application 11.2) running
+
+Loading project 'D:/Flux_Learning/2D_Case1.FLU'
+16:51:39       0 sec. Start reading ...
+16:51:40       1 sec. ... end reading
+Updating the data structure: merge standard database
+... end loading project
+   Scenario[CASE1_SC] created
+   addPilot executed
+ 
+The following surface regions are empty:
+6
+Modification possible using ASSIGN_REGIONS FACE.
+ 
+Begin of physical check ...
+ 
+Multiplying coefficient for the flux in the coils and for coupling with electrical circuits :
+Automatically calculated value = 1
+ 
+End of physical check.
+16:54:56     197 sec. Start save ...
+16:54:56     198 sec. ... end save
+16:54:56     198 sec. End writing
+Active formulation(s) :
+MSAVEC : Axisymmetric magnetostatic vector potential formulation
+Matrix system : non linear, real, symmetrical
+ 
+16:54:56     198 sec. Start solving problem ...
+ 
+ 
+Step number 1
+Value of parameter THICK : 8
+Value of parameter LINPOS_MOBILE_PART : 0
+Value of parameter ELFORC_MOBILE_PART : 0
+Value of parameter DIST : 0
+ 
+Meshing of 8 faces
+ 
+Automatic mesh of 35 lines
+16:54:56     198 sec. Internal meshing of the lines
+ 
+Automatic meshing of 8  faces
+Boundary meshing of the faces achieved in 2 iteration(s)
+Internal meshing of the 8 faces
+Faces internal meshing achieved
+Boundary meshing of the faces achieved in 1 iteration(s)
+Internal meshing of the 8 faces
+Faces internal meshing achieved
+Boundary meshing of the faces achieved in 1 iteration(s)
+Internal meshing of the 8 faces
+Faces internal meshing achieved
+End of topological mesh regularization
+16:54:58     199 sec.    4817 1st order surfacic elements created
+16:54:58     199 sec. Generating 2nd order elements is running
+  Total number of nodes --> 9724
+16:54:58     199 sec. End generating 2nd order elements
+ 
+16:54:58     199 sec. Start creating Dirichlet constraints at points...
+16:54:58     199 sec. ... end creating Dirichlet constraints at points.
+ 
+Mesh of compressible domains ...
+16:54:59     200 sec. Generating 2nd order elements is running
+  Total number of nodes --> 10623
+16:54:59     200 sec. End generating 2nd order elements
+  RAN1 unknowns are initialized to zero
+16:54:59     200 sec. Numbering of    10623 nodal values done.
+16:54:59     200 sec. Number of non zero matrix elements estimated to be      861600
+16:54:59     200 sec. Renumbering due to boundary conditions done.
+ 
+Building of topologic matrix ...
+Memory used during the building:            8 Mo.
+ 
+TOPOLOGY OF LINEAR SYSTEM :
+ 
+ Number of equations                 =                                   9617
+ Length of the shortest line         =                                      4
+ Length of the longest line          =                                     25
+ Average line length                 =                                     11
+ Number of the longest line          =                                     20
+ 
+ Redundance for vectorization                                             NON
+ Number of nonzero coefficients      =                                 109449
+ 
+ 
+NUMERIC MEMORY INFORMATION :
+ 
+   Total reserved memory:                                      629 Mo.
+   Total memory allocated before solving process:                7 Mo.
+   Memory allocated during solving process:                      8 Mo.
+ 
+16:54:59     200 sec. Integration on the region LINE_AG finished ( 8  elements )
+16:54:59     200 sec. Integration on the region INFINITE finished ( 209  elements )
+16:54:59     200 sec. Integration on the region AIR finished ( 2190  elements )
+16:54:59     200 sec. Integration on the region AIR_MOBILE finished ( 328  elements )
+16:54:59     200 sec. Integration on the region COIL finished ( 268  elements )
+16:54:59     200 sec. Linear part has been integrated and assembled.
+16:54:59     200 sec. Integration on the region CORE finished ( 805  elements )
+16:54:59     200 sec. Integration on the region MAG_CIR finished ( 1046  elements )
+16:54:59     200 sec. Non linear part has been integrated and assembled.
+16:54:59     200 sec. Scaling linear system
+16:54:59     200 sec. Solving linear system with Mumps.
+ Estimated RAM for Factorization - Incore:6 MiBytes
+ Estimated RAM for factorization - Memory on Disk:3 MiBytes
+ RAM effectively used during factorization :6 MiBytes
+ RAM effectively used during solve phase :5 MiBytes
+16:54:59     201 sec. Linear system has been solved.
+       Prec. rel. = 8.79E-13/ 7.00E-03
+16:54:59     201 sec. Integration on the region CORE finished ( 805  elements )
+16:54:59     201 sec. Integration on the region MAG_CIR finished ( 1046  elements )
+   Newton-Raphson:  No iter=   1/ 100 Relax= 1.00E+00
+       Prec. rel. = 1.00E+00/ 1.00E-04
+16:54:59     201 sec. Integration on the region CORE finished ( 805  elements )
+16:54:59     201 sec. Integration on the region MAG_CIR finished ( 1046  elements )
+16:54:59     201 sec. Non linear part has been integrated and assembled.
+16:54:59     201 sec. Scaling linear system
+16:54:59     201 sec. Solving linear system with Mumps.
+ Estimated RAM for Factorization - Incore:6 MiBytes
+ Estimated RAM for factorization - Memory on Disk:3 MiBytes
+ RAM effectively used during factorization :6 MiBytes
+ RAM effectively used during solve phase :5 MiBytes
+16:54:59     201 sec. Linear system has been solved.
+       Prec. rel. = 1.62E-14/ 2.75E-03
+16:54:59     201 sec. Integration on the region CORE finished ( 805  elements )
+16:54:59     201 sec. Integration on the region MAG_CIR finished ( 1046  elements )
+   Newton-Raphson:  No iter=   2/ 100 Relax= 1.00E+00
+       Prec. rel. = 7.78E-03/ 1.00E-04
+16:54:59     201 sec. Integration on the region CORE finished ( 805  elements )
+16:54:59     201 sec. Integration on the region MAG_CIR finished ( 1046  elements )
+16:54:59     201 sec. Non linear part has been integrated and assembled.
+16:54:59     201 sec. Scaling linear system
+16:54:59     201 sec. Solving linear system with Mumps.
+ Estimated RAM for Factorization - Incore:6 MiBytes
+ Estimated RAM for factorization - Memory on Disk:3 MiBytes
+ RAM effectively used during factorization :6 MiBytes
+ RAM effectively used during solve phase :5 MiBytes
+16:54:59     201 sec. Linear system has been solved.
+       Prec. rel. = 1.21E-15/ 9.06E-04
+16:54:59     201 sec. Integration on the region CORE finished ( 805  elements )
+16:54:59     201 sec. Integration on the region MAG_CIR finished ( 1046  elements )
+   Newton-Raphson:  No iter=   3/ 100 Relax= 1.00E+00
+       Prec. rel. = 7.44E-04/ 1.00E-04
+16:54:59     201 sec. Integration on the region CORE finished ( 805  elements )
+16:54:59     201 sec. Integration on the region MAG_CIR finished ( 1046  elements )
+16:54:59     201 sec. Non linear part has been integrated and assembled.
+16:54:59     201 sec. Scaling linear system
+16:54:59     201 sec. Solving linear system with Mumps.
+ Estimated RAM for Factorization - Incore:6 MiBytes
+ Estimated RAM for factorization - Memory on Disk:3 MiBytes
+ RAM effectively used during factorization :6 MiBytes
+ RAM effectively used during solve phase :5 MiBytes
+16:54:59     201 sec. Linear system has been solved.
+       Prec. rel. = 7.37E-16/ 1.28E-04
+16:54:59     201 sec. Integration on the region CORE finished ( 805  elements )
+16:54:59     201 sec. Integration on the region MAG_CIR finished ( 1046  elements )
+   Newton-Raphson:  No iter=   4/ 100 Relax= 1.00E+00
+       Prec. rel. = 1.29E-04/ 1.00E-04
+16:54:59     201 sec. Integration on the region CORE finished ( 805  elements )
+16:54:59     201 sec. Integration on the region MAG_CIR finished ( 1046  elements )
+16:54:59     201 sec. Non linear part has been integrated and assembled.
+16:54:59     201 sec. Scaling linear system
+16:54:59     201 sec. Solving linear system with Mumps.
+ Estimated RAM for Factorization - Incore:6 MiBytes
+ Estimated RAM for factorization - Memory on Disk:3 MiBytes
+ RAM effectively used during factorization :6 MiBytes
+ RAM effectively used during solve phase :5 MiBytes
+16:54:59     201 sec. Linear system has been solved.
+       Prec. rel. = 7.16E-16/ 2.80E-06
+16:54:59     201 sec. Integration on the region CORE finished ( 805  elements )
+16:54:59     201 sec. Integration on the region MAG_CIR finished ( 1046  elements )
+   Newton-Raphson:  No iter=   5/ 100 Relax= 1.00E+00
+       Prec. rel. = 2.81E-06/ 1.00E-04
+16:54:59     201 sec. Computation of ELFORC_MOBILE_PART
+16:55:00     201 sec. Value of ELFORC_MOBILE_PART : -42.0595027709226
+ 
+Step number 2
+Value of parameter DIST : 6.5
+ 
+Meshing of 8 faces
+ 
+Automatic mesh of 35 lines
+16:55:00     201 sec. Internal meshing of the lines
+ 
+Automatic meshing of 8  faces
+Boundary meshing of the faces achieved in 2 iteration(s)
+Internal meshing of the 8 faces
+Faces internal meshing achieved
+Boundary meshing of the faces achieved in 1 iteration(s)
+Internal meshing of the 8 faces
+Faces internal meshing achieved
+Boundary meshing of the faces achieved in 1 iteration(s)
+Internal meshing of the 8 faces
+Faces internal meshing achieved
+End of topological mesh regularization
+16:55:01     202 sec.    4941 1st order surfacic elements created
+16:55:01     202 sec. Generating 2nd order elements is running
+  Total number of nodes --> 9974
+16:55:01     202 sec. End generating 2nd order elements
+ 
+16:55:01     202 sec. Start creating Dirichlet constraints at points...
+16:55:01     202 sec. ... end creating Dirichlet constraints at points.
+ 
+Mesh of compressible domains ...
+16:55:02     203 sec. Generating 2nd order elements is running
+  Total number of nodes --> 10755
+16:55:02     203 sec. End generating 2nd order elements
+16:55:02     203 sec. Numbering of    10755 nodal values done.
+16:55:02     203 sec. Number of non zero matrix elements estimated to be      872160
+16:55:02     203 sec. Renumbering due to boundary conditions done.
+ 
+Building of topologic matrix ...
+Memory used during the building:            8 Mo.
+ 
+TOPOLOGY OF LINEAR SYSTEM :
+ 
+ Number of equations                 =                                   9749
+ Length of the shortest line         =                                      4
+ Length of the longest line          =                                     25
+ Average line length                 =                                     11
+ Number of the longest line          =                                     21
+ 
+ Redundance for vectorization                                             NON
+ Number of nonzero coefficients      =                                 110967
+ 
+ 
+NUMERIC MEMORY INFORMATION :
+ 
+   Total reserved memory:                                      629 Mo.
+   Total memory allocated before solving process:                7 Mo.
+   Memory allocated during solving process:                      8 Mo.
+ 
+16:55:02     203 sec. Integration on the region LINE_AG finished ( 8  elements )
+16:55:02     203 sec. Integration on the region INFINITE finished ( 222  elements )
+16:55:02     203 sec. Integration on the region AIR finished ( 2244  elements )
+16:55:02     203 sec. Integration on the region AIR_MOBILE finished ( 328  elements )
+16:55:02     203 sec. Integration on the region COIL finished ( 263  elements )
+16:55:02     203 sec. Linear part has been integrated and assembled.
+16:55:02     204 sec. Integration on the region CORE finished ( 809  elements )
+16:55:02     204 sec. Integration on the region MAG_CIR finished ( 1046  elements )
+16:55:02     204 sec. Non linear part has been integrated and assembled.
+16:55:02     204 sec. Scaling linear system
+16:55:02     204 sec. Solving linear system with Mumps.
+ Estimated RAM for Factorization - Incore:6 MiBytes
+ Estimated RAM for factorization - Memory on Disk:3 MiBytes
+ RAM effectively used during factorization :6 MiBytes
+ RAM effectively used during solve phase :5 MiBytes
+16:55:02     204 sec. Linear system has been solved.
+       Prec. rel. = 4.89E-13/ 7.07E-03
+16:55:02     204 sec. Integration on the region CORE finished ( 809  elements )
+16:55:02     204 sec. Integration on the region MAG_CIR finished ( 1046  elements )
+   Newton-Raphson:  No iter=   1/ 100 Relax= 1.00E+00
+       Prec. rel. = 1.00E+00/ 1.00E-04
+16:55:02     204 sec. Integration on the region CORE finished ( 809  elements )
+16:55:02     204 sec. Integration on the region MAG_CIR finished ( 1046  elements )
+16:55:02     204 sec. Non linear part has been integrated and assembled.
+16:55:02     204 sec. Scaling linear system
+16:55:02     204 sec. Solving linear system with Mumps.
+ Estimated RAM for Factorization - Incore:6 MiBytes
+ Estimated RAM for factorization - Memory on Disk:3 MiBytes
+ RAM effectively used during factorization :6 MiBytes
+ RAM effectively used during solve phase :5 MiBytes
+16:55:02     204 sec. Linear system has been solved.
+       Prec. rel. = 2.23E-14/ 2.26E-04
+16:55:02     204 sec. Integration on the region CORE finished ( 809  elements )
+16:55:02     204 sec. Integration on the region MAG_CIR finished ( 1046  elements )
+   Newton-Raphson:  No iter=   2/ 100 Relax= 1.00E+00
+       Prec. rel. = 2.22E-03/ 1.00E-04
+16:55:02     204 sec. Integration on the region CORE finished ( 809  elements )
+16:55:02     204 sec. Integration on the region MAG_CIR finished ( 1046  elements )
+16:55:02     204 sec. Non linear part has been integrated and assembled.
+16:55:02     204 sec. Scaling linear system
+16:55:02     204 sec. Solving linear system with Mumps.
+ Estimated RAM for Factorization - Incore:6 MiBytes
+ Estimated RAM for factorization - Memory on Disk:3 MiBytes
+ RAM effectively used during factorization :6 MiBytes
+ RAM effectively used during solve phase :5 MiBytes
+16:55:02     204 sec. Linear system has been solved.
+       Prec. rel. = 1.08E-15/ 7.18E-06
+16:55:02     204 sec. Integration on the region CORE finished ( 809  elements )
+16:55:02     204 sec. Integration on the region MAG_CIR finished ( 1046  elements )
+   Newton-Raphson:  No iter=   3/ 100 Relax= 1.00E+00
+       Prec. rel. = 1.99E-05/ 1.00E-04
+16:55:02     204 sec. Computation of ELFORC_MOBILE_PART
+16:55:02     204 sec. Value of ELFORC_MOBILE_PART : -15.7793029667667
+16:55:02     204 sec. Start reading ...
+16:55:03     204 sec. ... end reading
+ 
+16:55:03     204 sec. ... end solving problem.
+ 
+16:55:03     204 sec. Start save ...
+16:55:03     204 sec. ... end save
+16:55:03     204 sec. End writing
+Value of parameter THICK : 8
+Value of parameter LINPOS_MOBILE_PART : 0
+Value of parameter ELFORC_MOBILE_PART : -15.7793029667667
+Value of parameter DIST : 6.5
+   solve executed
+Saving project 'D:/Flux_Learning/2D_Case1.FLU'
+16:55:46     248 sec. Start reading ...
+16:55:46     248 sec. ... end reading
+16:55:46     248 sec. Start save ...
+16:55:47     248 sec. ... end save
+16:55:47     248 sec. End writing
+Value of parameter THICK : 8
+Value of parameter LINPOS_MOBILE_PART : 0
+Value of parameter ELFORC_MOBILE_PART : -15.7793029667667
+Value of parameter DIST : 6.5
+... end saving project
+   displayIsoline executed
+   maskIsoline executed
+   displayIsovalue executed
+   maskIsovalue executed
+   Path[PATH_1] created
+   Path[PATH_2] created
+   setInvisible executed
+   setInvisible executed
+   Path[PATH_1] modified
+   cleanInvalidPaths executed
+   cleanInvalidPaths executed
+   Path[PATH_1] created
+   Path[PATH_2] created
+   CompoundPath[AIRGAP] created
+   cleanInvalidPaths executed
+Value of parameter THICK : 8
+Value of parameter LINPOS_MOBILE_PART : 0
+Value of parameter ELFORC_MOBILE_PART : -42.0595027709226
+Value of parameter DIST : 0
+   selectCurrentStep executed
+   PropArrowPath[ARR_PATH] created
+Saving project 'D:/Flux_Learning/2D_Case1.FLU'
+17:25:26    2028 sec. Start reading ...
+17:25:27    2028 sec. ... end reading
+17:25:27    2028 sec. Start save ...
+17:25:27    2029 sec. ... end save
+17:25:27    2029 sec. End writing
+Value of parameter THICK : 8
+Value of parameter LINPOS_MOBILE_PART : 0
+Value of parameter ELFORC_MOBILE_PART : -42.0595027709226
+Value of parameter DIST : 0
+... end saving project
+   maskArrow executed
+   Scenario[CASE1_SC_1] created
+   addPilot executed
+17:30:28    2330 sec. Start reading ...
+17:30:28    2330 sec. ... end reading
+Begin of physical check ...
+ 
+Multiplying coefficient for the flux in the coils and for coupling with electrical circuits :
+Automatically calculated value = 1
+ 
+End of physical check.
+17:30:29    2330 sec. Start save ...
+17:30:29    2331 sec. ... end save
+17:30:29    2331 sec. End writing
+Active formulation(s) :
+MSAVEC : Axisymmetric magnetostatic vector potential formulation
+Matrix system : non linear, real, symmetrical
+ 
+17:30:30    2331 sec. Start solving problem ...
+ 
+ 
+Step number 1
+Value of parameter THICK : 8
+Value of parameter LINPOS_MOBILE_PART : 0
+Value of parameter ELFORC_MOBILE_PART : 0
+Value of parameter DIST : 0
+ 
+Meshing of 8 faces
+ 
+Automatic mesh of 35 lines
+17:30:30    2331 sec. Internal meshing of the lines
+ 
+Automatic meshing of 8  faces
+Boundary meshing of the faces achieved in 2 iteration(s)
+Internal meshing of the 8 faces
+Faces internal meshing achieved
+Boundary meshing of the faces achieved in 1 iteration(s)
+Internal meshing of the 8 faces
+Faces internal meshing achieved
+Boundary meshing of the faces achieved in 1 iteration(s)
+Internal meshing of the 8 faces
+Faces internal meshing achieved
+End of topological mesh regularization
+17:30:31    2332 sec.    4817 1st order surfacic elements created
+17:30:31    2332 sec. Generating 2nd order elements is running
+  Total number of nodes --> 9724
+17:30:31    2332 sec. End generating 2nd order elements
+ 
+17:30:31    2332 sec. Start creating Dirichlet constraints at points...
+17:30:31    2332 sec. ... end creating Dirichlet constraints at points.
+ 
+Mesh of compressible domains ...
+17:30:32    2333 sec. Generating 2nd order elements is running
+  Total number of nodes --> 10623
+17:30:32    2333 sec. End generating 2nd order elements
+  RAN1 unknowns are initialized to zero
+17:30:32    2333 sec. Numbering of    10623 nodal values done.
+17:30:32    2333 sec. Number of non zero matrix elements estimated to be      861600
+17:30:32    2333 sec. Renumbering due to boundary conditions done.
+ 
+Building of topologic matrix ...
+Memory used during the building:            8 Mo.
+ 
+TOPOLOGY OF LINEAR SYSTEM :
+ 
+ Number of equations                 =                                   9617
+ Length of the shortest line         =                                      4
+ Length of the longest line          =                                     25
+ Average line length                 =                                     11
+ Number of the longest line          =                                     20
+ 
+ Redundance for vectorization                                             NON
+ Number of nonzero coefficients      =                                 109449
+ 
+ 
+NUMERIC MEMORY INFORMATION :
+ 
+   Total reserved memory:                                      629 Mo.
+   Total memory allocated before solving process:                7 Mo.
+   Memory allocated during solving process:                      8 Mo.
+ 
+17:30:32    2333 sec. Integration on the region LINE_AG finished ( 8  elements )
+17:30:32    2333 sec. Integration on the region INFINITE finished ( 209  elements )
+17:30:32    2333 sec. Integration on the region AIR finished ( 2190  elements )
+17:30:32    2333 sec. Integration on the region AIR_MOBILE finished ( 328  elements )
+17:30:32    2333 sec. Integration on the region COIL finished ( 268  elements )
+17:30:32    2333 sec. Linear part has been integrated and assembled.
+17:30:32    2333 sec. Integration on the region CORE finished ( 805  elements )
+17:30:32    2333 sec. Integration on the region MAG_CIR finished ( 1046  elements )
+17:30:32    2333 sec. Non linear part has been integrated and assembled.
+17:30:32    2333 sec. Scaling linear system
+17:30:32    2333 sec. Solving linear system with Mumps.
+ Estimated RAM for Factorization - Incore:6 MiBytes
+ Estimated RAM for factorization - Memory on Disk:3 MiBytes
+ RAM effectively used during factorization :6 MiBytes
+ RAM effectively used during solve phase :5 MiBytes
+17:30:32    2334 sec. Linear system has been solved.
+       Prec. rel. = 8.79E-13/ 7.00E-03
+17:30:32    2334 sec. Integration on the region CORE finished ( 805  elements )
+17:30:32    2334 sec. Integration on the region MAG_CIR finished ( 1046  elements )
+   Newton-Raphson:  No iter=   1/ 100 Relax= 1.00E+00
+       Prec. rel. = 1.00E+00/ 1.00E-04
+17:30:32    2334 sec. Integration on the region CORE finished ( 805  elements )
+17:30:32    2334 sec. Integration on the region MAG_CIR finished ( 1046  elements )
+17:30:32    2334 sec. Non linear part has been integrated and assembled.
+17:30:32    2334 sec. Scaling linear system
+17:30:32    2334 sec. Solving linear system with Mumps.
+ Estimated RAM for Factorization - Incore:6 MiBytes
+ Estimated RAM for factorization - Memory on Disk:3 MiBytes
+ RAM effectively used during factorization :6 MiBytes
+ RAM effectively used during solve phase :5 MiBytes
+17:30:32    2334 sec. Linear system has been solved.
+       Prec. rel. = 1.62E-14/ 2.75E-03
+17:30:32    2334 sec. Integration on the region CORE finished ( 805  elements )
+17:30:32    2334 sec. Integration on the region MAG_CIR finished ( 1046  elements )
+   Newton-Raphson:  No iter=   2/ 100 Relax= 1.00E+00
+       Prec. rel. = 7.78E-03/ 1.00E-04
+17:30:32    2334 sec. Integration on the region CORE finished ( 805  elements )
+17:30:32    2334 sec. Integration on the region MAG_CIR finished ( 1046  elements )
+17:30:32    2334 sec. Non linear part has been integrated and assembled.
+17:30:32    2334 sec. Scaling linear system
+17:30:32    2334 sec. Solving linear system with Mumps.
+ Estimated RAM for Factorization - Incore:6 MiBytes
+ Estimated RAM for factorization - Memory on Disk:3 MiBytes
+ RAM effectively used during factorization :6 MiBytes
+ RAM effectively used during solve phase :5 MiBytes
+17:30:32    2334 sec. Linear system has been solved.
+       Prec. rel. = 1.21E-15/ 9.06E-04
+17:30:32    2334 sec. Integration on the region CORE finished ( 805  elements )
+17:30:32    2334 sec. Integration on the region MAG_CIR finished ( 1046  elements )
+   Newton-Raphson:  No iter=   3/ 100 Relax= 1.00E+00
+       Prec. rel. = 7.44E-04/ 1.00E-04
+17:30:32    2334 sec. Integration on the region CORE finished ( 805  elements )
+17:30:32    2334 sec. Integration on the region MAG_CIR finished ( 1046  elements )
+17:30:32    2334 sec. Non linear part has been integrated and assembled.
+17:30:32    2334 sec. Scaling linear system
+17:30:32    2334 sec. Solving linear system with Mumps.
+ Estimated RAM for Factorization - Incore:6 MiBytes
+ Estimated RAM for factorization - Memory on Disk:3 MiBytes
+ RAM effectively used during factorization :6 MiBytes
+ RAM effectively used during solve phase :5 MiBytes
+17:30:32    2334 sec. Linear system has been solved.
+       Prec. rel. = 7.37E-16/ 1.28E-04
+17:30:32    2334 sec. Integration on the region CORE finished ( 805  elements )
+17:30:32    2334 sec. Integration on the region MAG_CIR finished ( 1046  elements )
+   Newton-Raphson:  No iter=   4/ 100 Relax= 1.00E+00
+       Prec. rel. = 1.29E-04/ 1.00E-04
+17:30:32    2334 sec. Integration on the region CORE finished ( 805  elements )
+17:30:32    2334 sec. Integration on the region MAG_CIR finished ( 1046  elements )
+17:30:32    2334 sec. Non linear part has been integrated and assembled.
+17:30:32    2334 sec. Scaling linear system
+17:30:32    2334 sec. Solving linear system with Mumps.
+ Estimated RAM for Factorization - Incore:6 MiBytes
+ Estimated RAM for factorization - Memory on Disk:3 MiBytes
+ RAM effectively used during factorization :6 MiBytes
+ RAM effectively used during solve phase :5 MiBytes
+17:30:32    2334 sec. Linear system has been solved.
+       Prec. rel. = 7.16E-16/ 2.80E-06
+17:30:32    2334 sec. Integration on the region CORE finished ( 805  elements )
+17:30:32    2334 sec. Integration on the region MAG_CIR finished ( 1046  elements )
+   Newton-Raphson:  No iter=   5/ 100 Relax= 1.00E+00
+       Prec. rel. = 2.81E-06/ 1.00E-04
+17:30:32    2334 sec. Computation of ELFORC_MOBILE_PART
+17:30:33    2334 sec. Value of ELFORC_MOBILE_PART : -42.0595027709226
+ 
+Step number 2
+Value of parameter DIST : -6.5
+ 
+Meshing of 8 faces
+ 
+Automatic mesh of 35 lines
+17:30:33    2334 sec. Internal meshing of the lines
+ 
+Automatic meshing of 8  faces
+Boundary meshing of the faces achieved in 2 iteration(s)
+Internal meshing of the 8 faces
+Faces internal meshing achieved
+Boundary meshing of the faces achieved in 1 iteration(s)
+Internal meshing of the 8 faces
+Faces internal meshing achieved
+Boundary meshing of the faces achieved in 1 iteration(s)
+Internal meshing of the 8 faces
+Faces internal meshing achieved
+End of topological mesh regularization
+17:30:34    2335 sec.    5212 1st order surfacic elements created
+17:30:34    2335 sec. Generating 2nd order elements is running
+  Total number of nodes --> 10513
+17:30:34    2335 sec. End generating 2nd order elements
+ 
+17:30:34    2336 sec. Start creating Dirichlet constraints at points...
+17:30:34    2336 sec. ... end creating Dirichlet constraints at points.
+ 
+Mesh of compressible domains ...
+17:30:35    2336 sec. Generating 2nd order elements is running
+  Total number of nodes --> 11490
+17:30:35    2336 sec. End generating 2nd order elements
+17:30:35    2336 sec. Numbering of    11490 nodal values done.
+17:30:35    2336 sec. Number of non zero matrix elements estimated to be      930960
+17:30:35    2336 sec. Renumbering due to boundary conditions done.
+ 
+Building of topologic matrix ...
+Memory used during the building:            8 Mo.
+ 
+TOPOLOGY OF LINEAR SYSTEM :
+ 
+ Number of equations                 =                                  10362
+ Length of the shortest line         =                                      4
+ Length of the longest line          =                                     28
+ Average line length                 =                                     11
+ Number of the longest line          =                                     23
+ 
+ Redundance for vectorization                                             NON
+ Number of nonzero coefficients      =                                 118028
+ 
+ 
+NUMERIC MEMORY INFORMATION :
+ 
+   Total reserved memory:                                      629 Mo.
+   Total memory allocated before solving process:                8 Mo.
+   Memory allocated during solving process:                      9 Mo.
+ 
+17:30:35    2337 sec. Integration on the region LINE_AG finished ( 8  elements )
+17:30:35    2337 sec. Integration on the region INFINITE finished ( 194  elements )
+17:30:35    2337 sec. Integration on the region AIR finished ( 2095  elements )
+17:30:35    2337 sec. Integration on the region AIR_MOBILE finished ( 335  elements )
+17:30:35    2337 sec. Integration on the region COIL finished ( 293  elements )
+17:30:35    2337 sec. Linear part has been integrated and assembled.
+17:30:35    2337 sec. Integration on the region CORE finished ( 1030  elements )
+17:30:35    2337 sec. Integration on the region MAG_CIR finished ( 1272  elements )
+17:30:35    2337 sec. Non linear part has been integrated and assembled.
+17:30:35    2337 sec. Scaling linear system
+17:30:35    2337 sec. Solving linear system with Mumps.
+ Estimated RAM for Factorization - Incore:7 MiBytes
+ Estimated RAM for factorization - Memory on Disk:4 MiBytes
+ RAM effectively used during factorization :6 MiBytes
+ RAM effectively used during solve phase :6 MiBytes
+17:30:35    2337 sec. Linear system has been solved.
+       Prec. rel. = 4.08E-12/ 6.77E-03
+17:30:35    2337 sec. Integration on the region CORE finished ( 1030  elements )
+17:30:35    2337 sec. Integration on the region MAG_CIR finished ( 1272  elements )
+   Newton-Raphson:  No iter=   1/ 100 Relax= 1.00E+00
+       Prec. rel. = 1.00E+00/ 1.00E-04
+17:30:35    2337 sec. Integration on the region CORE finished ( 1030  elements )
+17:30:35    2337 sec. Integration on the region MAG_CIR finished ( 1272  elements )
+17:30:35    2337 sec. Non linear part has been integrated and assembled.
+17:30:35    2337 sec. Scaling linear system
+17:30:35    2337 sec. Solving linear system with Mumps.
+ Estimated RAM for Factorization - Incore:7 MiBytes
+ Estimated RAM for factorization - Memory on Disk:4 MiBytes
+ RAM effectively used during factorization :6 MiBytes
+ RAM effectively used during solve phase :6 MiBytes
+17:30:35    2337 sec. Linear system has been solved.
+       Prec. rel. = 1.85E-14/ 5.78E-01
+17:30:35    2337 sec. Integration on the region CORE finished ( 1030  elements )
+17:30:35    2337 sec. Integration on the region MAG_CIR finished ( 1272  elements )
+   Newton-Raphson:  No iter=   2/ 100 Relax= 1.00E+00
+       Prec. rel. = 7.03E-02/ 1.00E-04
+17:30:35    2337 sec. Integration on the region CORE finished ( 1030  elements )
+17:30:35    2337 sec. Integration on the region MAG_CIR finished ( 1272  elements )
+17:30:35    2337 sec. Non linear part has been integrated and assembled.
+17:30:35    2337 sec. Scaling linear system
+17:30:35    2337 sec. Solving linear system with Mumps.
+ Estimated RAM for Factorization - Incore:7 MiBytes
+ Estimated RAM for factorization - Memory on Disk:4 MiBytes
+ RAM effectively used during factorization :6 MiBytes
+ RAM effectively used during solve phase :6 MiBytes
+17:30:36    2337 sec. Linear system has been solved.
+       Prec. rel. = 1.93E-14/ 6.27E-02
+17:30:36    2337 sec. Integration on the region CORE finished ( 1030  elements )
+17:30:36    2337 sec. Integration on the region MAG_CIR finished ( 1272  elements )
+   Newton-Raphson:  No iter=   3/ 100 Relax= 1.00E+00
+       Prec. rel. = 2.35E-02/ 1.00E-04
+17:30:36    2337 sec. Integration on the region CORE finished ( 1030  elements )
+17:30:36    2337 sec. Integration on the region MAG_CIR finished ( 1272  elements )
+17:30:36    2337 sec. Non linear part has been integrated and assembled.
+17:30:36    2337 sec. Scaling linear system
+17:30:36    2337 sec. Solving linear system with Mumps.
+ Estimated RAM for Factorization - Incore:7 MiBytes
+ Estimated RAM for factorization - Memory on Disk:4 MiBytes
+ RAM effectively used during factorization :6 MiBytes
+ RAM effectively used during solve phase :6 MiBytes
+17:30:36    2337 sec. Linear system has been solved.
+       Prec. rel. = 3.95E-14/ 2.75E-02
+17:30:36    2337 sec. Integration on the region CORE finished ( 1030  elements )
+17:30:36    2337 sec. Integration on the region MAG_CIR finished ( 1272  elements )
+   Newton-Raphson:  No iter=   4/ 100 Relax= 1.00E+00
+       Prec. rel. = 7.96E-03/ 1.00E-04
+17:30:36    2337 sec. Integration on the region CORE finished ( 1030  elements )
+17:30:36    2337 sec. Integration on the region MAG_CIR finished ( 1272  elements )
+17:30:36    2337 sec. Non linear part has been integrated and assembled.
+17:30:36    2337 sec. Scaling linear system
+17:30:36    2337 sec. Solving linear system with Mumps.
+ Estimated RAM for Factorization - Incore:7 MiBytes
+ Estimated RAM for factorization - Memory on Disk:4 MiBytes
+ RAM effectively used during factorization :6 MiBytes
+ RAM effectively used during solve phase :6 MiBytes
+17:30:36    2337 sec. Linear system has been solved.
+       Prec. rel. = 5.01E-14/ 1.37E-02
+17:30:36    2337 sec. Integration on the region CORE finished ( 1030  elements )
+17:30:36    2337 sec. Integration on the region MAG_CIR finished ( 1272  elements )
+   Newton-Raphson:  No iter=   5/ 100 Relax= 1.00E+00
+       Prec. rel. = 2.27E-03/ 1.00E-04
+17:30:36    2338 sec. Integration on the region CORE finished ( 1030  elements )
+17:30:36    2338 sec. Integration on the region MAG_CIR finished ( 1272  elements )
+17:30:36    2338 sec. Non linear part has been integrated and assembled.
+17:30:36    2338 sec. Scaling linear system
+17:30:36    2338 sec. Solving linear system with Mumps.
+ Estimated RAM for Factorization - Incore:7 MiBytes
+ Estimated RAM for factorization - Memory on Disk:4 MiBytes
+ RAM effectively used during factorization :6 MiBytes
+ RAM effectively used during solve phase :6 MiBytes
+17:30:36    2338 sec. Linear system has been solved.
+       Prec. rel. = 3.38E-14/ 6.34E-03
+17:30:36    2338 sec. Integration on the region CORE finished ( 1030  elements )
+17:30:36    2338 sec. Integration on the region MAG_CIR finished ( 1272  elements )
+   Newton-Raphson:  No iter=   6/ 100 Relax= 1.00E+00
+       Prec. rel. = 3.40E-04/ 1.00E-04
+17:30:36    2338 sec. Integration on the region CORE finished ( 1030  elements )
+17:30:36    2338 sec. Integration on the region MAG_CIR finished ( 1272  elements )
+17:30:36    2338 sec. Non linear part has been integrated and assembled.
+17:30:36    2338 sec. Scaling linear system
+17:30:36    2338 sec. Solving linear system with Mumps.
+ Estimated RAM for Factorization - Incore:7 MiBytes
+ Estimated RAM for factorization - Memory on Disk:4 MiBytes
+ RAM effectively used during factorization :6 MiBytes
+ RAM effectively used during solve phase :6 MiBytes
+17:30:36    2338 sec. Linear system has been solved.
+       Prec. rel. = 1.12E-14/ 1.97E-03
+17:30:36    2338 sec. Integration on the region CORE finished ( 1030  elements )
+17:30:36    2338 sec. Integration on the region MAG_CIR finished ( 1272  elements )
+   Newton-Raphson:  No iter=   7/ 100 Relax= 1.00E+00
+       Prec. rel. = 2.56E-05/ 1.00E-04
+17:30:36    2338 sec. Computation of ELFORC_MOBILE_PART
+17:30:36    2338 sec. Value of ELFORC_MOBILE_PART : -368.607219652843
+17:30:36    2338 sec. Start reading ...
+17:30:37    2338 sec. ... end reading
+ 
+17:30:37    2338 sec. ... end solving problem.
+ 
+17:30:37    2338 sec. Start save ...
+17:30:37    2338 sec. ... end save
+17:30:37    2338 sec. End writing
+Value of parameter THICK : 8
+Value of parameter LINPOS_MOBILE_PART : 0
+Value of parameter ELFORC_MOBILE_PART : -368.607219652843
+Value of parameter DIST : -6.5
+   solve executed
+Value of parameter THICK : 8
+Value of parameter LINPOS_MOBILE_PART : 0
+Value of parameter ELFORC_MOBILE_PART : -42.0595027709226
+Value of parameter DIST : 0
+   selectCurrentStep executed
+Start of evaluation sensors
+Any sensor requires a new valuation
+End evaluation
+ 
+ForceElecMag(MOBILE PART)
+   DIST
+    Interval = -6.5 (0, -6.5)
+      Minimal value = -368.607219652843
+      Maximal value = -42.0595027709226
+      Mean value                 = -205.333
+      Rectified mean value       = 205.333
+      R.m.s value                = 262.336
+      Integral along the curve = 1334.67
+ 
+Analysis of variation computation(s) finished
+   EvolutiveCurve2D[FORCE_VS_DIST] created
+Saving project 'D:/Flux_Learning/2D_Case1.FLU'
+18:10:34    4735 sec. Start reading ...
+18:10:34    4736 sec. ... end reading
+18:10:34    4736 sec. Start save ...
+18:10:35    4736 sec. ... end save
+18:10:35    4736 sec. End writing
+Value of parameter THICK : 8
+Value of parameter LINPOS_MOBILE_PART : 0
+Value of parameter ELFORC_MOBILE_PART : -42.0595027709226
+Value of parameter DIST : 0
+... end saving project
+Close of D:/FLUX_LEARNING/2D_CASE1
+Maximum use of 114 Mo. in numerical memory
+For the dynamic table ID 1197206
+Maximum use of 14 Mo. in character memory
+For the dynamic table ID 5420866
+ 
+   NUMZM         ADRES    SUIV    PREC    CODE          LONG           UID     PROP4   ...
+ 
+       1             3       6       4   R08 5             0             0
+       2             1       5       5   C80 8             0             0
+       4      78643201       1       6   R08 5             0             0
+       5        655361       2       2   C80 8             0             0
+       6             5       4       1   I04 2        360037             0
+Numerical memory: Total length                   =  78643200
+(8 byte words)    Present length                 =    180021
+                  Useful length                  =    180021
+                  Number of numerical arrays     =         3
+Character memory: Total length                   =    655360
+(80 byte words)   Present length                 =         0
+                  Useful length                  =         0
+                  Number of character arrays     =         2
+Maximum number of arrays (num+char)              =     60006
+ 

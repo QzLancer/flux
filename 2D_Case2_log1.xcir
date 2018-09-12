@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Circuit>
+<Headers>#! Preflu2D 11.2</Headers>
+<Headers>#! Flux2D 11.2</Headers>
+<Headers>#! Preflu3D 11.2</Headers>
+<Headers>#! Flux3D 11.2</Headers>
+<Headers>#! FluxSkewed 11.2</Headers>
+<Transitional>true</Transitional>
+<Application2D>true</Application2D>
+<Entities>
+
+
+   <Equipotential name="EQUIPOTENTIAL_2" graphicState='0'>
+      <name>EQUIPOTENTIAL_2</name>
+      <potential>
+         <ElectricPotential uid="1">
+            <connexions>
+               <Connexion uid="1">
+                  <points>
+                     <ConnexionPoint uid="1">
+                        <uvw>
+                           <element>-2.10000000E+02</element> 
+                           <element>-9.00000000E+01</element>
+                        </uvw>
+                     </ConnexionPoint>
+ 
+                     <ConnexionPoint uid="2">
+                        <uvw>
+                           <element>-2.10000000E+02</element> 
+                           <element> 4.00000000E+01</element>
+                        </uvw>
+                     </ConnexionPoint>
+
+                  </points>
+               </Connexion>
+
+            </connexions>
+         </ElectricPotential>
+      </potential>
+   </Equipotential>
+
+
+   <Equipotential name="EQUIPOTENTIAL_1" graphicState='0'>
+      <name>EQUIPOTENTIAL_1</name>
+      <potential>
+         <ElectricPotential uid="2">
+            <connexions>
+               <Connexion uid="2">
+                  <points>
+                     <ConnexionPoint uid="3">
+                        <uvw>
+                           <element>-2.50000000E+02</element> 
+                           <element> 4.00000000E+01</element>
+                        </uvw>
+                     </ConnexionPoint>
+ 
+                     <ConnexionPoint uid="4">
+                        <uvw>
+                           <element>-2.80000000E+02</element> 
+                           <element> 4.00000000E+01</element>
+                        </uvw>
+                     </ConnexionPoint>
+ 
+                     <ConnexionPoint uid="5">
+                        <uvw>
+                           <element>-2.80000000E+02</element> 
+                           <element>-5.00000000E+01</element>
+                        </uvw>
+                     </ConnexionPoint>
+ 
+                     <ConnexionPoint uid="15">
+                        <uvw>
+                           <element>-3.10000000E+02</element> 
+                           <element>-5.00000000E+01</element>
+                        </uvw>
+                     </ConnexionPoint>
+
+                  </points>
+               </Connexion>
+ 
+               <Connexion uid="6">
+                  <points>
+                     <ConnexionPoint uid="16">
+                        <uvw>
+                           <element>-3.10000000E+02</element> 
+                           <element>-3.00000000E+01</element>
+                        </uvw>
+                     </ConnexionPoint>
+ 
+                     <ConnexionPoint uid="17">
+                        <uvw>
+                           <element>-3.10000000E+02</element> 
+                           <element>-5.00000000E+01</element>
+                        </uvw>
+                     </ConnexionPoint>
+
+                  </points>
+               </Connexion>
+ 
+               <Connexion uid="7">
+                  <points>
+                     <ConnexionPoint uid="18">
+                        <uvw>
+                           <element>-2.50000000E+02</element> 
+                           <element>-9.00000000E+01</element>
+                        </uvw>
+                     </ConnexionPoint>
+ 
+                     <ConnexionPoint uid="19">
+                        <uvw>
+                           <element>-3.10000000E+02</element> 
+                           <element>-9.00000000E+01</element>
+                        </uvw>
+                     </ConnexionPoint>
+ 
+                     <ConnexionPoint uid="20">
+                        <uvw>
+                           <element>-3.10000000E+02</element> 
+                           <element>-5.00000000E+01</element>
+                        </uvw>
+                     </ConnexionPoint>
+
+                  </points>
+               </Connexion>
+
+            </connexions>
+         </ElectricPotential>
+      </potential>
+   </Equipotential>
+
+
+   <RegionLine name="LINE_AG">
+      <name>LINE_AG</name>
+      <electroHarmonic2D>None</electroHarmonic2D>
+      <electroHarmonic3D>None</electroHarmonic3D>
+      <electricConduction2D>None</electricConduction2D>
+      <electricConduction3D>None</electricConduction3D>
+      <electroStatic2D>None</electroStatic2D>
+      <electroStatic3D>None</electroStatic3D>
+      <magneticAC2D>None</magneticAC2D>
+      <magneticAC3D>None</magneticAC3D>
+      <magneticDC2D>None</magneticDC2D>
+      <magneticDC3D>None</magneticDC3D>
+      <magneticTransient2D>None</magneticTransient2D>
+      <magneticTransient3D>None</magneticTransient3D>
+      <thermalSteady2D>None</thermalSteady2D>
+      <thermalSteady3D>None</thermalSteady3D>
+      <thermalTransient3D>None</thermalTransient3D>
+      <thermalTransient2D>None</thermalTransient2D>
+      <magneticACThermal2D>None</magneticACThermal2D>
+      <magneticACThermal3D>None</magneticACThermal3D>
+      <magneticACNormalH2D>None</magneticACNormalH2D>
+      <electricConductionThermal2D>None</electricConductionThermal2D>
+      <electroHarmonicThermal2D>None</electroHarmonicThermal2D>
+      <magneticVelocityTerm2D>None</magneticVelocityTerm2D>
+      <electrolysis3D>None</electrolysis3D>
+      <color>
+         <Color nameref="Cyan"/>
+      </color>
+      <visibility>
+         <VISIBLE nameref="VISIBLE"/>
+      </visibility>
+      <mechanicalSet>
+         <MechanicalSetFixed nameref="FIXED_PART"/>
+      </mechanicalSet>
+      <volume> 0.00000000E+00</volume>
+      <mass> 0.00000000E+00</mass>
+      <resistance>None</resistance>
+      <subSystem>
+         <InternealSubSystem nameref="INTERNAL_SYSTEM"/>
+      </subSystem>
+   </RegionLine>
+
+
+   <RegionFace name="INFINITE">
+      <name>INFINITE : Infinite region</name>
+      <electroHarmonic2D>None</electroHarmonic2D>
+      <magneticDCSkewed>None</magneticDCSkewed>
+      <magneticACSkewed>None</magneticACSkewed>
+      <magneticTransientSkewed>None</magneticTransientSkewed>
+      <electroHarmonic3D>None</electroHarmonic3D>
+      <electricConduction2D>None</electricConduction2D>
+      <electricConduction3D>None</electricConduction3D>
+      <electroStatic2D>None</electroStatic2D>
+      <electroStatic3D>None</electroStatic3D>
+      <magneticAC2D>None</magneticAC2D>
+      <magneticAC3D>None</magneticAC3D>
+      <magneticDC2D>None</magneticDC2D>
+      <magneticDC3D>None</magneticDC3D>
+      <magneticTransient2D>None</magneticTransient2D>
+      <magneticTransient3D>None</magneticTransient3D>
+      <thermalSteady2D>None</thermalSteady2D>
+      <thermalSteady3D>None</thermalSteady3D>
+      <thermalTransient3D>None</thermalTransient3D>
+      <thermalTransient2D>None</thermalTransient2D>
+      <magneticACThermal2D>None</magneticACThermal2D>
+      <magneticACNormalH2D>None</magneticACNormalH2D>
+      <magneticACThermal3D>None</magneticACThermal3D>
+      <electricConductionThermal2D>None</electricConductionThermal2D>
+      <electroHarmonicThermal2D>None</electroHarmonicThermal2D>
+      <magneticVelocityTerm2D>None</magneticVelocityTerm2D>
+      <electrolysis3D>None</electrolysis3D>
+      <depth>None</depth>
+      <color>
+         <Color nameref="Turquoise"/>
+      </color>
+      <visibility>
+         <VISIBLE nameref="VISIBLE"/>
+      </visibility>
+      <mechanicalSet>
+         <MechanicalSetFixed nameref="FIXED_PART"/>
+      </mechanicalSet>
+      <surfaceElementType>None</surfaceElementType>
+      <polarizationLawEval>None</polarizationLawEval>
+      <volume> 0.00000000E+00</volume>
+      <mass> 0.00000000E+00</mass>
+      <resistance>None</resistance>
+      <subSystem>
+         <InternealSubSystem nameref="INTERNAL_SYSTEM"/>
+      </subSystem>
+   </RegionFace>
+
+
+   <RegionFace name="AIR">
+      <name>AIR</name>
+      <electroHarmonic2D>None</electroHarmonic2D>
+      <magneticDCSkewed>None</magneticDCSkewed>
+      <magneticACSkewed>None</magneticACSkewed>
+      <magneticTransientSkewed>None</magneticTransientSkewed>
+      <electroHarmonic3D>None</electroHarmonic3D>
+      <electricConduction2D>None</electricConduction2D>
+      <electricConduction3D>None</electricConduction3D>
+      <electroStatic2D>None</electroStatic2D>
+      <electroStatic3D>None</electroStatic3D>
+      <magneticAC2D>None</magneticAC2D>
+      <magneticAC3D>None</magneticAC3D>
+      <magneticDC2D>None</magneticDC2D>
+      <magneticDC3D>None</magneticDC3D>
+      <magneticTransient2D>None</magneticTransient2D>
+      <magneticTransient3D>None</magneticTransient3D>
+      <thermalSteady2D>None</thermalSteady2D>
+      <thermalSteady3D>None</thermalSteady3D>
+      <thermalTransient3D>None</thermalTransient3D>
+      <thermalTransient2D>None</thermalTransient2D>
+      <magneticACThermal2D>None</magneticACThermal2D>
+      <magneticACNormalH2D>None</magneticACNormalH2D>
+      <magneticACThermal3D>None</magneticACThermal3D>
+      <electricConductionThermal2D>None</electricConductionThermal2D>
+      <electroHarmonicThermal2D>None</electroHarmonicThermal2D>
+      <magneticVelocityTerm2D>None</magneticVelocityTerm2D>
+      <electrolysis3D>None</electrolysis3D>
+      <depth>None</depth>
+      <color>
+         <Color nameref="Turquoise"/>
+      </color>
+      <visibility>
+         <VISIBLE nameref="VISIBLE"/>
+      </visibility>
+      <mechanicalSet>
+         <MechanicalSetCompressibleRemeshing nameref="COMPRESSIBLE_PART"/>
+      </mechanicalSet>
+      <surfaceElementType>None</surfaceElementType>
+      <polarizationLawEval>None</polarizationLawEval>
+      <volume> 0.00000000E+00</volume>
+      <mass> 0.00000000E+00</mass>
+      <resistance>None</resistance>
+      <subSystem>
+         <InternealSubSystem nameref="INTERNAL_SYSTEM"/>
+      </subSystem>
+   </RegionFace>
+
+
+   <RegionFace name="AIR_MOBILE">
+      <name>AIR_MOBILE</name>
+      <electroHarmonic2D>None</electroHarmonic2D>
+      <magneticDCSkewed>None</magneticDCSkewed>
+      <magneticACSkewed>None</magneticACSkewed>
+      <magneticTransientSkewed>None</magneticTransientSkewed>
+      <electroHarmonic3D>None</electroHarmonic3D>
+      <electricConduction2D>None</electricConduction2D>
+      <electricConduction3D>None</electricConduction3D>
+      <electroStatic2D>None</electroStatic2D>
+      <electroStatic3D>None</electroStatic3D>
+      <magneticAC2D>None</magneticAC2D>
+      <magneticAC3D>None</magneticAC3D>
+      <magneticDC2D>None</magneticDC2D>
+      <magneticDC3D>None</magneticDC3D>
+      <magneticTransient2D>None</magneticTransient2D>
+      <magneticTransient3D>None</magneticTransient3D>
+      <thermalSteady2D>None</thermalSteady2D>
+      <thermalSteady3D>None</thermalSteady3D>
+      <thermalTransient3D>None</thermalTransient3D>
+      <thermalTransient2D>None</thermalTransient2D>
+      <magneticACThermal2D>None</magneticACThermal2D>
+      <magneticACNormalH2D>None</magneticACNormalH2D>
+      <magneticACThermal3D>None</magneticACThermal3D>
+      <electricConductionThermal2D>None</electricConductionThermal2D>
+      <electroHarmonicThermal2D>None</electroHarmonicThermal2D>
+      <magneticVelocityTerm2D>None</magneticVelocityTerm2D>
+      <electrolysis3D>None</electrolysis3D>
+      <depth>None</depth>
+      <color>
+         <Color nameref="Turquoise"/>
+      </color>
+      <visibility>
+         <VISIBLE nameref="VISIBLE"/>
+      </visibility>
+      <mechanicalSet>
+         <MechanicalSetTranslation1Axis nameref="MOBILE_PART"/>
+      </mechanicalSet>
+      <surfaceElementType>None</surfaceElementType>
+      <polarizationLawEval>None</polarizationLawEval>
+      <volume> 0.00000000E+00</volume>
+      <mass> 0.00000000E+00</mass>
+      <resistance>None</resistance>
+      <subSystem>
+         <InternealSubSystem nameref="INTERNAL_SYSTEM"/>
+      </subSystem>
+   </RegionFace>
+
+
+   <RegionFace name="CORE">
+      <name>CORE</name>
+      <electroHarmonic2D>None</electroHarmonic2D>
+      <magneticDCSkewed>None</magneticDCSkewed>
+      <magneticACSkewed>None</magneticACSkewed>
+      <magneticTransientSkewed>None</magneticTransientSkewed>
+      <electroHarmonic3D>None</electroHarmonic3D>
+      <electricConduction2D>None</electricConduction2D>
+      <electricConduction3D>None</electricConduction3D>
+      <electroStatic2D>None</electroStatic2D>
+      <electroStatic3D>None</electroStatic3D>
+      <magneticAC2D>None</magneticAC2D>
+      <magneticAC3D>None</magneticAC3D>
+      <magneticDC2D>None</magneticDC2D>
+      <magneticDC3D>None</magneticDC3D>
+      <magneticTransient2D>None</magneticTransient2D>
+      <magneticTransient3D>None</magneticTransient3D>
+      <thermalSteady2D>None</thermalSteady2D>
+      <thermalSteady3D>None</thermalSteady3D>
+      <thermalTransient3D>None</thermalTransient3D>
+      <thermalTransient2D>None</thermalTransient2D>
+      <magneticACThermal2D>None</magneticACThermal2D>
+      <magneticACNormalH2D>None</magneticACNormalH2D>
+      <magneticACThermal3D>None</magneticACThermal3D>
+      <electricConductionThermal2D>None</electricConductionThermal2D>
+      <electroHarmonicThermal2D>None</electroHarmonicThermal2D>
+      <magneticVelocityTerm2D>None</magneticVelocityTerm2D>
+      <electrolysis3D>None</electrolysis3D>
+      <depth>None</depth>
+      <color>
+         <Color nameref="Cyan"/>
+      </color>
+      <visibility>
+         <VISIBLE nameref="VISIBLE"/>
+      </visibility>
+      <mechanicalSet>
+         <MechanicalSetTranslation1Axis nameref="MOBILE_PART"/>
+      </mechanicalSet>
+      <surfaceElementType>None</surfaceElementType>
+      <polarizationLawEval>None</polarizationLawEval>
+      <volume> 0.00000000E+00</volume>
+      <mass> 0.00000000E+00</mass>
+      <resistance>None</resistance>
+      <subSystem>
+         <InternealSubSystem nameref="INTERNAL_SYSTEM"/>
+      </subSystem>
+   </RegionFace>
+
+
+   <RegionFace name="MAG_CIR">
+      <name>MAG_CIR</name>
+      <electroHarmonic2D>None</electroHarmonic2D>
+      <magneticDCSkewed>None</magneticDCSkewed>
+      <magneticACSkewed>None</magneticACSkewed>
+      <magneticTransientSkewed>None</magneticTransientSkewed>
+      <electroHarmonic3D>None</electroHarmonic3D>
+      <electricConduction2D>None</electricConduction2D>
+      <electricConduction3D>None</electricConduction3D>
+      <electroStatic2D>None</electroStatic2D>
+      <electroStatic3D>None</electroStatic3D>
+      <magneticAC2D>None</magneticAC2D>
+      <magneticAC3D>None</magneticAC3D>
+      <magneticDC2D>None</magneticDC2D>
+      <magneticDC3D>None</magneticDC3D>
+      <magneticTransient2D>None</magneticTransient2D>
+      <magneticTransient3D>None</magneticTransient3D>
+      <thermalSteady2D>None</thermalSteady2D>
+      <thermalSteady3D>None</thermalSteady3D>
+      <thermalTransient3D>None</thermalTransient3D>
+      <thermalTransient2D>None</thermalTransient2D>
+      <magneticACThermal2D>None</magneticACThermal2D>
+      <magneticACNormalH2D>None</magneticACNormalH2D>
+      <magneticACThermal3D>None</magneticACThermal3D>
+      <electricConductionThermal2D>None</electricConductionThermal2D>
+      <electroHarmonicThermal2D>None</electroHarmonicThermal2D>
+      <magneticVelocityTerm2D>None</magneticVelocityTerm2D>
+      <electrolysis3D>None</electrolysis3D>
+      <depth>None</depth>
+      <color>
+         <Color nameref="Cyan"/>
+      </color>
+      <visibility>
+         <VISIBLE nameref="VISIBLE"/>
+      </visibility>
+      <mechanicalSet>
+         <MechanicalSetFixed nameref="FIXED_PART"/>
+      </mechanicalSet>
+      <surfaceElementType>None</surfaceElementType>
+      <polarizationLawEval>None</polarizationLawEval>
+      <volume> 0.00000000E+00</volume>
+      <mass> 0.00000000E+00</mass>
+      <resistance>None</resistance>
+      <subSystem>
+         <InternealSubSystem nameref="INTERNAL_SYSTEM"/>
+      </subSystem>
+   </RegionFace>
+
+
+   <RegionFace name="INIFINITE">
+      <name>INIFINITE</name>
+      <electroHarmonic2D>None</electroHarmonic2D>
+      <magneticDCSkewed>None</magneticDCSkewed>
+      <magneticACSkewed>None</magneticACSkewed>
+      <magneticTransientSkewed>None</magneticTransientSkewed>
+      <electroHarmonic3D>None</electroHarmonic3D>
+      <electricConduction2D>None</electricConduction2D>
+      <electricConduction3D>None</electricConduction3D>
+      <electroStatic2D>None</electroStatic2D>
+      <electroStatic3D>None</electroStatic3D>
+      <magneticAC2D>None</magneticAC2D>
+      <magneticAC3D>None</magneticAC3D>
+      <magneticDC2D>None</magneticDC2D>
+      <magneticDC3D>None</magneticDC3D>
+      <magneticTransient2D>None</magneticTransient2D>
+      <magneticTransient3D>None</magneticTransient3D>
+      <thermalSteady2D>None</thermalSteady2D>
+      <thermalSteady3D>None</thermalSteady3D>
+      <thermalTransient3D>None</thermalTransient3D>
+      <thermalTransient2D>None</thermalTransient2D>
+      <magneticACThermal2D>None</magneticACThermal2D>
+      <magneticACNormalH2D>None</magneticACNormalH2D>
+      <magneticACThermal3D>None</magneticACThermal3D>
+      <electricConductionThermal2D>None</electricConductionThermal2D>
+      <electroHarmonicThermal2D>None</electroHarmonicThermal2D>
+      <magneticVelocityTerm2D>None</magneticVelocityTerm2D>
+      <electrolysis3D>None</electrolysis3D>
+      <depth>None</depth>
+      <color>
+         <Color nameref="Turquoise"/>
+      </color>
+      <visibility>
+         <VISIBLE nameref="VISIBLE"/>
+      </visibility>
+      <mechanicalSet>
+         <MechanicalSetFixed nameref="FIXED_PART"/>
+      </mechanicalSet>
+      <surfaceElementType>None</surfaceElementType>
+      <polarizationLawEval>None</polarizationLawEval>
+      <volume> 0.00000000E+00</volume>
+      <mass> 0.00000000E+00</mass>
+      <resistance>None</resistance>
+      <subSystem>
+         <InternealSubSystem nameref="INTERNAL_SYSTEM"/>
+      </subSystem>
+   </RegionFace>
+
+
+   <RegionFace name="COIL">
+      <name>COIL</name>
+      <electroHarmonic2D>None</electroHarmonic2D>
+      <magneticDCSkewed>None</magneticDCSkewed>
+      <magneticACSkewed>None</magneticACSkewed>
+      <magneticTransientSkewed>None</magneticTransientSkewed>
+      <electroHarmonic3D>None</electroHarmonic3D>
+      <electricConduction2D>None</electricConduction2D>
+      <electricConduction3D>None</electricConduction3D>
+      <electroStatic2D>None</electroStatic2D>
+      <electroStatic3D>None</electroStatic3D>
+      <magneticAC2D>None</magneticAC2D>
+      <magneticAC3D>None</magneticAC3D>
+      <magneticDC2D>None</magneticDC2D>
+      <magneticDC3D>None</magneticDC3D>
+      <magneticTransient2D>None</magneticTransient2D>
+      <magneticTransient3D>None</magneticTransient3D>
+      <thermalSteady2D>None</thermalSteady2D>
+      <thermalSteady3D>None</thermalSteady3D>
+      <thermalTransient3D>None</thermalTransient3D>
+      <thermalTransient2D>None</thermalTransient2D>
+      <magneticACThermal2D>None</magneticACThermal2D>
+      <magneticACNormalH2D>None</magneticACNormalH2D>
+      <magneticACThermal3D>None</magneticACThermal3D>
+      <electricConductionThermal2D>None</electricConductionThermal2D>
+      <electroHarmonicThermal2D>None</electroHarmonicThermal2D>
+      <magneticVelocityTerm2D>None</magneticVelocityTerm2D>
+      <electrolysis3D>None</electrolysis3D>
+      <depth>None</depth>
+      <color>
+         <Color nameref="Red"/>
+      </color>
+      <visibility>
+         <VISIBLE nameref="VISIBLE"/>
+      </visibility>
+      <mechanicalSet>
+         <MechanicalSetFixed nameref="FIXED_PART"/>
+      </mechanicalSet>
+      <surfaceElementType>None</surfaceElementType>
+      <polarizationLawEval>None</polarizationLawEval>
+      <volume> 0.00000000E+00</volume>
+      <mass> 0.00000000E+00</mass>
+      <resistance>None</resistance>
+      <subSystem>
+         <InternealSubSystem nameref="INTERNAL_SYSTEM"/>
+      </subSystem>
+   </RegionFace>
+
+
+   <FormulaVoltageSource name="VOLTAGESOURCE_1" graphicState='0'>
+      <name>VOLTAGESOURCE_1</name>
+      <terminals>
+         <Equipotential nameref="EQUIPOTENTIAL_1"/>
+          <Equipotential nameref="EQUIPOTENTIAL_2"/>
+
+      </terminals>
+      <visibility>
+         <VISIBLE nameref="VISIBLE"/>
+      </visibility>
+      <color>
+         <Color nameref="Turquoise"/>
+      </color>
+      <rmsModulus>24</rmsModulus>
+      <phase>None</phase>
+      <graphicDescription>
+         <GraphicComponent uid="1">
+            <rotationAngle> 0.00000000E+00</rotationAngle>
+            <centerCoordinates>
+               <element>-2.30000000E+02</element> 
+               <element>-9.00000000E+01</element>
+            </centerCoordinates>
+         </GraphicComponent>
+      </graphicDescription>
+      <current>None</current>
+      <subSystem>None</subSystem>
+      <graphic3DDescription>None</graphic3DDescription>
+   </FormulaVoltageSource>
+
+
+   <CircuitStrandedCoil name="COILCONDUCTOR_1" graphicState='0'>
+      <name>COILCONDUCTOR_1</name>
+      <terminals>
+         <Equipotential nameref="EQUIPOTENTIAL_1"/>
+          <Equipotential nameref="EQUIPOTENTIAL_2"/>
+
+      </terminals>
+      <resistanceFormula>3</resistanceFormula>
+      <graphicDescription>
+         <GraphicComponent uid="2">
+            <rotationAngle> 0.00000000E+00</rotationAngle>
+            <centerCoordinates>
+               <element>-2.30000000E+02</element> 
+               <element> 4.00000000E+01</element>
+            </centerCoordinates>
+         </GraphicComponent>
+      </graphicDescription>
+      <subSystem>None</subSystem>
+      <evaluatedResistance> 3.00000000E+00</evaluatedResistance>
+   </CircuitStrandedCoil>
+
+
+   <Ground name="GROUND_1" graphicState='0'>
+      <name>GROUND_1</name>
+      <terminal>
+         <Equipotential nameref="EQUIPOTENTIAL_1"/>
+      </terminal>
+      <graphicDescription>
+         <GraphicComponent uid="3">
+            <rotationAngle> 0.00000000E+00</rotationAngle>
+            <centerCoordinates>
+               <element>-3.10000000E+02</element> 
+               <element>-2.00000000E+01</element>
+            </centerCoordinates>
+         </GraphicComponent>
+      </graphicDescription>
+      <subSystem>None</subSystem>
+   </Ground>
+
+
+</Entities>
+</Circuit>
